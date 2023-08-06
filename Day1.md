@@ -25,3 +25,11 @@ We can describe those as:
 - IDE like VS Code.
 - Online playgrounds like CodePen and CodeSandbox.
 
+**How do we get to JS Console in the web browser?**
+1. Right-click anywhere on the web page.
+2. Click on **inspect** which appears at the end of the list.
+3. Click on **Console** tap then start coding!✨
+
+
+
+
