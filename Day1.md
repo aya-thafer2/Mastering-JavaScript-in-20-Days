@@ -61,7 +61,7 @@ Document
             └── "This is a DOM example."
 ```
 
-### Finding Elements in a Web Page:
+### Finding Elements in a Web Page 🔎:
 
 * `document.title`: Represents the **Title of the page** - *appears in the browsers' tab*.
 * `document.body`: Represents the HTML **Body element**. 
