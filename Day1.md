@@ -108,4 +108,12 @@ b *= 3;
 c *= 10;
 ```
 
+2. [Concatenating Strings with the Plus Equals Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/concatenating-strings-with-the-plus-equals-operator)
+
+My solution:
+```javaScript
+let myStr = "This is the first sentence. ";
+myStr += "This is the second sentence.";
+```
+
 
