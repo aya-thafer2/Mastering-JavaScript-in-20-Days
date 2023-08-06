@@ -79,5 +79,17 @@ Document
 💡 **For learning more about HTML, CSS, and JS this website is very helpful : [MDN](https://developer.mozilla.org/en-US/)🌟**.
 
 
+### **Changing a Web Page using JS📄✏️:** 
+There are 2 ways to manipulate the element which are:
+1. Using the equals operator `=` : 
+```JavaScript
+document.title = "My Page" 
+```
+➡️ This will replace the page title with *My Page*.
+2. Using `.appned(””)`:
+```JavaScript
+document.getElementById("p1-name").append(" & friends")
+```
+➡️ This will add  text to the end of the elements' current text.
 
 
