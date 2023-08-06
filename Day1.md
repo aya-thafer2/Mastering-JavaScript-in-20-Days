@@ -86,6 +86,7 @@ There are 2 ways to manipulate the element which are:
 document.title = "My Page" 
 ```
 ➡️ This will replace the page title with *My Page*.
+
 2. Using `.appned(””)`:
 ```JavaScript
 document.getElementById("p1-name").append(" & friends")
