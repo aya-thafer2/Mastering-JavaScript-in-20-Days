@@ -34,6 +34,36 @@ We can describe those as:
 The DOM represents the structured content of a web page as a tree-like data structure, where each element in the HTML document is represented as a node in the tree.
 Using the DOM, JS can access and manipulate the content, structure, and style of a web page dynamically. 
 
+Here is an HTML document example:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DOM Example</title>
+</head>
+<body>
+  <h1>Hello, World!</h1>
+  <p>This is a DOM example.</p>
+</body>
+</html>
+```
+And here is the corresponding DOM tree:
+```
+Document
+└── html
+    ├── head
+    │   └── title
+    │       └── "DOM Example"
+    └── body
+        ├── h1
+        │   └── "Hello, World!"
+        └── p
+            └── "This is a DOM example."
+```
+
+### Finding Elements in a Web Page:
+
+
 
 
 
