@@ -63,7 +63,17 @@ Document
 
 ### Finding Elements in a Web Page:
 
-
+* `document.title`: Represents the **Title of the page** - *appears in the browsers' tab*.
+* `document.body`: Represents the HTML **Body element**. 
+* `document.body.children`: Represents **All the elements within the body**.
+* `document.getElementById("board")`: Returns **Specific element with specific id**.
+* `document.querySelector("#board")`: Returns **Specific element with specific id** but by using the CSS selector.
+* `document.getElementsByTagName("h1")`: Returns **All the elements with the same tag**.  
+* `document.querySelectorAll("h1")`: Returns **All the elements with the same tag** but by using the CSS selector.
+* `document.getElementsByClassName("player")`: Returns **All the elements with the same class**. 
+* `document.querySelectorAll(".player")`: Returns **All the elements with the same class** but by using the CSS selector.
+* `document.getElementsByClassName("player").length`: Returns **The nubmer of the elements that are returned**.
+* `document.querySelectorAll(".player").length`:  Returns **The nubmer of the elements that are returned** but by using the CSS selector.
 
 
 
