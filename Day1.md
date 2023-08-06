@@ -30,6 +30,10 @@ We can describe those as:
 2. Click on **inspect** which appears at the end of the list.
 3. Click on **Console** tap then start coding!✨
 
+## DOM (Document Object Model) 🧩🧶📄
+The DOM represents the structured content of a web page as a tree-like data structure, where each element in the HTML document is represented as a node in the tree.
+Using the DOM, JS can access and manipulate the content, structure, and style of a web page dynamically. 
+
 
 
 
