@@ -74,6 +74,7 @@ Document
 * `document.querySelectorAll(".player")`: Returns **All the elements with the same class** but by using the CSS selector.
 * `document.getElementsByClassName("player").length`: Returns **The nubmer of the elements that are returned**.
 * `document.querySelectorAll(".player").length`:  Returns **The nubmer of the elements that are returned** but by using the CSS selector.
+* `document.getElementById("p1-name").textContect`: Returns the **Text element** inside of the selected element.
 
 
 
