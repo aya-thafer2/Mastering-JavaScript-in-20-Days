@@ -191,6 +191,13 @@ const yello = hello.toUpperCase();
 // hello = "hello"
 ```
 
+ #### 💡 **NOTES:**
+1. **typeof**: it’s an operator
+2. **push** will affect the original array while **concat** don’t, it creates a new array
+3. We can mute the array even if we declared it using const
+4. **Objects** are mutable
+5. **console** is a **built-in** **object** that has a property called **log**
+6. **Strings** are ***primitive** values* (**not objects**) but JS automatically wraps them in `String` objects
 
 
 
