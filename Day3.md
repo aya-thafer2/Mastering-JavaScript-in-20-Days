@@ -1,7 +1,7 @@
 # Day 3 🤩
 
 ## Arrays 
-**Arrays** let us keep multiple values together in a single collection
+**Arrays** let us keep multiple values together in a single collection.
 
 ### Examples:
 ```javaScript
