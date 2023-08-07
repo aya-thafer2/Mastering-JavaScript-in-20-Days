@@ -202,7 +202,35 @@ for (let character of "string") {
 ```
  
 
-## FreeCodeCamp challenges🔥:
+# Exercises🔥:
+### QUESTION #1
 
+Consider the following JavaScript code:
+
+```javascript
+let a = 0;
+let b = "0";
+let c = false;
+let d = "false";
+
+console.log(a == b);
+console.log(b === c);
+console.log(!!d);
+```
+
+What will be the output of each console.log statement? **_You MUST explain WHY_**.
+
+**My solution:**
+```javascript
+console.log(a == b); //true
+//because the values of a and b are the same regards the type - because this is a loosy-goosy operator.
+console.log(b === c); //false
+//Even though the values of b and c are the same but the type is Not - because this is a strict operator.
+console.log(!!d); //true
+//The value of any string is considered as "true", so "!d" will toggle true to false, then "!!d" will toggle false to true. 
+```
+-------------------------------------------------------------------
+
+### QUESTION #2:
 
 
