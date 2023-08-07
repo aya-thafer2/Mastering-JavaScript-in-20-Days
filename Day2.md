@@ -171,6 +171,36 @@ console.log(y); // "Aya"
 
 An **expression** "asks" JS for a value.
 
+```javaScript
+myAssignedVariable  // what is the value of my variable
+6 + 4               // what is the value of this summation
+document.getElementById("board")
+```
+
+A **statement** "tells" JS to do something, actions we want JS to do it
+
+```javaScript
+// e.g: declare/assign a variable
+let ten = 6 + 4;
+myDeclaredVariable = "new value";
+let board = document.getElementById("board");
+```
+```javaScript
+function add(x, y) {
+    return x + y;
+}
+
+let biggest;
+if (5 > 4) {
+    biggest = 5;
+} else {
+    biggest = 4;
+}
+for (let character of "string") {
+    console.log(character);
+}
+```
+ 
 
 ## FreeCodeCamp challenges🔥:
 
