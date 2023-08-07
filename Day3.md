@@ -135,6 +135,18 @@ let age = 2023 - js.birthYear; // age = 27
 js.learn = true; // add new property >> learn
 ```
 
+We can access a property in the object by using 2 ways:
+```javaScript
+//1. 
+js.name; //"JavaScript"
+
+//2.
+js["name"]; //"JavaScript"
+```
+but unlike arrays we ***Can't*** use *indexes* to get to the property:
+```javaScript
+js[0]; // undefined
+```
 
 
 ## FreeCodeCamp challenges🔥:
