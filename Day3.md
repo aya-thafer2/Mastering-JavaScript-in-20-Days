@@ -70,7 +70,7 @@ numbers2; // [1, 2, 3]
 
 #### 💡**NOTE:**
 > * Some actions "**mutate**" an array, aka(called) change the array ***in-place*** (e.g. `oldArray.push(newValue)`).
-> * Other actions **do** ***not* mutate** the original array, but instead create a new copy (e.g. `oldArray.concat(otherArray)`).
+> * Other actions "**do** ***not* mutate**" the original array, but instead create a new copy (e.g. `oldArray.concat(otherArray)`).
 
 
 
