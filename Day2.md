@@ -150,12 +150,12 @@ There are different keywords to declare variables:
 * `let` - we can change the variable value.
 * `const` - we can't change the variable value.
 
-#### Variable names:
+### Variable names:
 Variables in JS can be named using:
 * Camel Case : ayaThafer.
 * Sanke Case : aya_thafer.
 
-#### What are variables?
+### What are variables?
 variables **point** to values'.
 
 
