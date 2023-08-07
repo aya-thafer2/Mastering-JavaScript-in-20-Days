@@ -167,7 +167,7 @@ Some Built-in methods:
 * `.sort()`
 * `this.`
 
-## Built in objects:
+## Built-in objects:
 
 1. document
 2. array
