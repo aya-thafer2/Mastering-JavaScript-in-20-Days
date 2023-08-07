@@ -80,7 +80,7 @@ document.querySelector("header h1").textContent= document.querySelector("header 
 
 ## Operators 
 1. **`typeof`** - which we've used earlier.
-2. Arethmatic operators:
+2. Arithmetic operators:
     * (`+`) Add.
     * (`-`) Subtract.
     * (`*`) Multiply.
@@ -92,9 +92,9 @@ document.querySelector("header h1").textContent= document.querySelector("header 
 
 
 3. Comparison operators:
-    * (`>`) Greator than.
+    * (`>`) Greater than.
     * (`<`) Less than.
-    * (`>=`) Greator than or equal to.
+    * (`>=`) Greater than or equal to.
     * (`<=`) Less than or equal to.
 
 4. Equality operators:
@@ -126,6 +126,25 @@ document.querySelector("header h1").textContent= document.querySelector("header 
 5. Logical operators and even more...
 
 ## Expressions
+An expression evaluates (aka resolves) to a value.
+
+**Examples of expressions:**
+```javaScript
+4 / 2 * 10
+
+"Frontend" + "Masters"
+
+5 > 4 !== 3 > 4
+```
+
+## Variables
+Variables let us **remember** values.
+```javaScript
+let x; //Declare a variable called x
+x= "Aya"; //Assign the variable with a strig value = "Aya"
+//OR
+let x= "Aya"; //Declaring & Assigning at once
+```
 
 
 ## FreeCodeCamp challenges🔥:
