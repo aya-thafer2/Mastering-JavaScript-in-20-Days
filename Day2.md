@@ -159,6 +159,18 @@ Variables in JS can be named using:
 Variables **point** to values.
 
 
+```javaScript
+let x = "Aya";
+let y = x;
+x = "Aya Thafer";
+console.log(y); // "Aya"
+ //The value of y won't change
+```
+
+### Statements vs. Expressions
+
+An **expression** "asks" JS for a value.
+
 
 ## FreeCodeCamp challenges🔥:
 
