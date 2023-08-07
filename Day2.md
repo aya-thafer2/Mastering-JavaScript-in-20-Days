@@ -78,6 +78,21 @@ document.querySelector("header h1").textContent= document.querySelector("header 
 ```
 
 
+## Operators 
+1. **`typeof`** - which we've used earlier.
+2. Arethmatic operators:
+    * (`+`) Add.
+    * (`-`) Subtract.
+    * (`*`) Multiply.
+    * (`/`) Divide.
+
+💡 NOTE: **Plus sign (`+`)** has different uses:
+1. Adding numbers - *Arithmatic operator*.
+2. Concatenate strings: at least on side is string.
+
+## Operators Exercise:
+
+
 
 ## FreeCodeCamp challenges🔥:
 
