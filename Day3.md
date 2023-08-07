@@ -316,17 +316,39 @@ const yello = hello.toUpperCase();
 
 
 ## FreeCodeCamp challenges🔥:
-1. [Compound Assignment With Augmented Multiplication](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-multiplication)
+1. [Copy Array Items Using slice()](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/copy-array-items-using-slice)
 
 My solution:
 ```javaScript
-let a = 5;
-let b = 12;
-let c = 4.6;
+function forecast(arr) {
+  // Only change code below this line
+arr = arr.slice(2, 4);
+  return arr;
+}
 
-// Only change code below this line
-a *= 5;
-b *= 3;
-c *= 10;
+// Only change code above this line
+console.log(forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms']));
 ```
+2. [Combine Arrays with the Spread Operator](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-data-structures/combine-arrays-with-the-spread-operator)
+
+My solution:
+```javaScript
+function spreadOut() {
+  let fragment = ['to', 'code'];
+  let sentence = ['learning', ...fragment , 'is', 'fun']; // Change this line
+  return sentence;
+}
+
+console.log(spreadOut());
+```
+3. [Profile Lookup](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/profile-lookup)
+
+My solution:
+```javaScript
+
+```
+
+
+
+
 
