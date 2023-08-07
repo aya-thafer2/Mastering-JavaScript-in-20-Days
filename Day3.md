@@ -37,6 +37,42 @@ let mixedArray = ["pop", 6, "squish", false, document];
 ```
 
 
+## Mutability
+In JS certian values behave differently than certian other values that we might think are similar
+
+```javaScript
+let abcArray = ["a", "b", "c"];
+abcArray[1] = "d";
+abcArray;  // ['a', 'd', 'c']
+
+let abcString = "abc";
+abcString[1] = "d";
+abcString; // 'abc'
+```
+
+### Mutable vs. Immutable: 
+* "**Mutable**" data can be edited (e.g. **Arrays**).
+* "**Immutable**" data always stays the same (e.g. **strings** & **other primitives**).
+ 
+
+##  Mutable & Immutable Data Exercise
+
+### Do these do the same thing?
+```javaScript
+let numbers1 = [1, 2, 3];
+let result1 = numbers1.push(4); 
+numbers1;  // [1, 2, 3, 4]
+ 
+let numbers2 = [1, 2, 3];
+let result2 = numbers2.concat([4]);
+numbers2; // [1, 2, 3]
+```
+
+#### 💡**NOTE:**
+> * Some actions "**mutate**" an array, aka(called) change the array ***in-place*** (e.g. `oldArray.push(newValue)`).
+> * Other actions **do** ***not* mutate** the original array, but instead create a new copy (e.g. `oldArray.concat(otherArray)`).
+
+
 
 ## FreeCodeCamp challenges🔥:
 1. [Compound Assignment With Augmented Multiplication](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-multiplication)
