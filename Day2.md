@@ -116,6 +116,12 @@ document.querySelector("header h1").textContent= document.querySelector("header 
 // 3. The number of dogs you'd pet in a week if you pet 1 dog per hour while awake
 1 * (24-8) * 7
 ```
+#### Strict VS Loosy-goosy
+| Strict | output | Loosey-goosey | output |
+| ----------- | ----------- | ----------- | ----------- | 
+| 1 == 1  | ✅|  1 === 1 |  ✅|
+| "1" === "1" | ✅ | "1" == "1"  | ✅|    
+|  1 === "1" |❌ | 1 == "1" | ✅ |
 
 
 ## FreeCodeCamp challenges🔥:
