@@ -76,7 +76,8 @@ Document
 * `document.querySelectorAll(".player").length`:  Returns **The nubmer of the elements that are returned** but by using the CSS selector.
 * `document.getElementById("p1-name").textContect`: Returns the **Text element** inside of the selected element.
 
-💡 **For learning more about HTML, CSS, and JS this website is very helpful : [MDN](https://developer.mozilla.org/en-US/)🌟**.
+#### 💡**NOTE:**
+> **For learning more about HTML, CSS, and JS this website is very helpful : [MDN](https://developer.mozilla.org/en-US/)🌟**.
 
 
 ### **Changing a Web Page using JS📄✏️:** 
