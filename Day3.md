@@ -114,6 +114,27 @@ array2 // [5,2,3,4] cuz the 2 arrays are pointing to the same value
 ```
 
 
+## Objects 
+* **Objects** collect multiple values together to describe more complex data.
+* **Objects** let us *point at* related values using *properties* in the object.
+
+ We can access edit and add any property using "`.`":
+```javaScript
+const js = {
+    name: "JavaScript",
+    abbreviation: "JS",
+    isAwesome: true,
+    officialSpec: "ECMAScript",
+    birthYear: 1995,
+    creator: "Brendan Eich"
+};
+ 
+js.name; //"JavaScript"
+js.name.startsWith("Java"); //true
+let age = 2023 - js.birthYear; // age = 27
+js.learn = true; // add new property >> learn
+```
+
 
 
 ## FreeCodeCamp challenges🔥:
