@@ -73,6 +73,48 @@ numbers2; // [1, 2, 3]
 > * Other actions "**do** ***not* mutate**" the original array, but instead create a new copy (e.g. `oldArray.concat(otherArray)`).
 
 
+### Variables themselves can also be (im)mutable 
+
+```javaScript
+let letVariable = "original value";
+letVariable = "new value";
+//letVariable = "new value";
+
+const constVariable = "original value";
+constVariable = "new Value";
+//error
+```
+
+
+## Immutable variable with mutable value 
+ What happens when we use `const` with a mutable value like an *array*?
+```javaScript
+const operands = [4, 6];
+const sum = operands[0] + operands[1]; //  10
+
+operands[0] = 5;
+const newSum = operands[0] + operands[1]; // 11
+```
+
+#### 💡**NOTE:**
+> If you have the choice, using *immutable* data & variables is usually best.
+
+
+## Variables & Arrays:
+
+```javaScript
+let array1 = [1,2,3,4]
+let array2= array1
+array1[0]=5
+
+array1 // [5,2,3,4]
+array2 // [5,2,3,4] cuz the 2 arrays are pointing to the same value
+
+// Even if I used const the result will be the same
+```
+
+
+
 
 ## FreeCodeCamp challenges🔥:
 1. [Compound Assignment With Augmented Multiplication](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-multiplication)
