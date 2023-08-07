@@ -291,7 +291,28 @@ console.log(x === y);
 What will be the output of each `console.log` statement? **_You MUST explain WHY_**.
 
 **My solution:**
+```javascript
+console.log(x == y); //true
+//Because the values of x and y are the same regards the type - because this is a loosy-goosy operator.
+console.log(x === y); //false
+//Eventhough the values of x and y are the same but the type is Not - because this is a strict operator.
+```
+-------------------------------------------------------------------
 
+### QUESTION #5:
+
+Given the code below:
+
+```javascript
+let num = "15";
+let isPositive = true;
+let result = (num > 10 && isPositive) || num < 0;
+console.log(result);
+```
+
+What is the value of result? **_You MUST explain the steps of evaluation taken by JS_**
+ 
+ 
 
 
 
