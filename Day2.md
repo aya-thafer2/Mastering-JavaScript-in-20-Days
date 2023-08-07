@@ -5,7 +5,7 @@
   ### Values:
 Are chunks of information we want to work with.
 
-### JS has 2 types of data:
+#### JS has 2 types of data:
 
  - **Primitive data types:**
   1. String.
