@@ -85,6 +85,11 @@ document.querySelector("header h1").textContent= document.querySelector("header 
     * (`-`) Subtract.
     * (`*`) Multiply.
     * (`/`) Divide.
+3. Comparison operators:
+    * (`>`) Greator than.
+    * (`<`) Less than.
+    * (`>=`) Greator than or equal to.
+    * (`<=`) Less than or equal to.
 
 💡 **NOTE**: **Plus sign (`+`)** has different uses:
 1. Adding numbers - *Arithmatic operator*.
