@@ -86,7 +86,7 @@ document.querySelector("header h1").textContent= document.querySelector("header 
     * (`*`) Multiply.
     * (`/`) Divide.
 
-💡 NOTE: **Plus sign (`+`)** has different uses:
+💡 **NOTE**: **Plus sign (`+`)** has different uses:
 1. Adding numbers - *Arithmatic operator*.
 2. Concatenate strings - *at least on side is string*.
 
