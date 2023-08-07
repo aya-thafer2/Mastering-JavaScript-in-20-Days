@@ -145,6 +145,19 @@ x= "Aya"; //Assign the variable with a strig value = "Aya"
 //OR
 let x= "Aya"; //Declaring & Assigning at once
 ```
+There are different keywords to declare variables:
+* `var` - we can change the variable value.
+* `let` - we can change the variable value.
+* `const` - we can't change the variable value.
+
+#### Variable names:
+Variables in JS can be named using:
+* Camel Case : ayaThafer.
+* Sanke Case : aya_thafer.
+
+#### What are variables?
+variables **point** to values'.
+
 
 
 ## FreeCodeCamp challenges🔥:
