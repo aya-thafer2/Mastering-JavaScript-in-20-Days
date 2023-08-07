@@ -156,7 +156,7 @@ Variables in JS can be named using:
 * Sanke Case : aya_thafer.
 
 ### What are variables?
-variables **point** to values'.
+Variables **point** to values.
 
 
 
