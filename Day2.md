@@ -92,6 +92,16 @@ document.querySelector("header h1").textContent= document.querySelector("header 
 
 ## Operators Exercise:
 
+```javaScript
+// 1. The total number of siblings of your parents
+3 + 5
+
+// 2. The average number of hours you slept this week
+(8*7)/7
+
+// 3. The number of dogs you'd pet in a week if you pet 1 dog per hour while awake
+1 * (24-8) * 7
+```
 
 
 ## FreeCodeCamp challenges🔥:
