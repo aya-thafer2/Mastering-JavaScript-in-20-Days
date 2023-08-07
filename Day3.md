@@ -161,19 +161,38 @@ const dog = {
 }
 dog.speak(); //"woof woof"
 ```
+#### 💡**NOTE:**
+> `this.` is a built-in object method.
 
-Some Built-in methods:
-* `.indexOf()`
-* `.sort()`
-* `this.`
+
 
 ## Built-in objects:
+1. document:
+    * `document.title();`
+2. array:
+    * `arr.push();`
+    * `arr.sort();`
+    * `arr.indexOf();`
+3. console:
+    * `console.log();`
+    * `console.warn();`
+    * `console.error();`
+    * `console.clear();`
+4. Math: 
+    * `Math.PI;`
+    * `Math.random();`
+5. strings:
+    Srings are *primitive values* (not objects) but JS automatically wraps them in `String` objects.
+```javaScript
+const hello = "hello";
+console.log(hello.length);
+const yello = hello.toUpperCase(); 
+// yello = "HELLO"
+// hello = "hello"
+```
 
-1. document
-2. array
-3. console : has methods : log, error 
-4. Math
-5. Function
+
+
 
 ## FreeCodeCamp challenges🔥:
 1. [Compound Assignment With Augmented Multiplication](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-multiplication)
