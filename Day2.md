@@ -85,15 +85,22 @@ document.querySelector("header h1").textContent= document.querySelector("header 
     * (`-`) Subtract.
     * (`*`) Multiply.
     * (`/`) Divide.
+💡 **NOTE**: **Plus sign (`+`)** has different uses:
+      1. Adding numbers - *Arithmatic operator*.
+      2. Concatenate strings - *at least on side is string*.
+
 3. Comparison operators:
     * (`>`) Greator than.
     * (`<`) Less than.
     * (`>=`) Greator than or equal to.
     * (`<=`) Less than or equal to.
 
-💡 **NOTE**: **Plus sign (`+`)** has different uses:
-1. Adding numbers - *Arithmatic operator*.
-2. Concatenate strings - *at least on side is string*.
+4. Equality operators:
+
+| Strict | Loosey-goosey | Meaning |
+| ----------- | ----------- | ----------- |
+| 1 == 1  | 1 === 1 | Equals |
+| !== | != | Does not equal |
 
 ## Operators Exercise:
 
