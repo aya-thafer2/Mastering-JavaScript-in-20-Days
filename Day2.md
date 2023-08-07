@@ -313,7 +313,19 @@ console.log(result);
 What is the value of result? **_You MUST explain the steps of evaluation taken by JS_**
  
  
-
+ **My solution:**
+ ```javascript
+let num = "15";
+let isPositive = true;
+let result = (num > 10 && isPositive) || num < 0;
+console.log(result); // true
+/*
+1. (num > 10) : num="15" which is a string and 10 is a number, when comparing string to number, JS will convert string to number >>> so the expression becomes 15 > 10 >>> true.
+2.  (num > 10 && isPositive) : becomes (true && true) >>> true;
+3. (num > 10 && isPositive) || num < 0 : when comparing num (string) with 0 (number), js will convert string to number >>> so the expression becomes 15 < 0 >>> false.
+4. (true) || false; //true
+*/
+```
 
 
 
