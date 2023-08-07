@@ -243,6 +243,7 @@ What will be the output of this expression? **_You MUST explain the steps of eva
 
 **My solution:**
 ```javascript
+console.log(4 + 5 * "7"); //39
 /*
 1. (5 * "7"): Here, the multiplication operator (*) is used between a number (5) and a string ("7"). Since one of the operands is a string, JavaScript will attempt to convert the string to a number. In this case, the string "7" will be converted to the number 7.
 
@@ -278,6 +279,18 @@ Therefore, after evaluating the expression let result = 5 + 2 * 3 - 1;, the vari
 
 ### QUESTION #4:
 
+
+Consider the following code:
+
+```javascript
+let x = 10;
+let y = '10';
+console.log(x == y);
+console.log(x === y);
+```
+What will be the output of each `console.log` statement? **_You MUST explain WHY_**.
+
+**My solution:**
 
 
 
