@@ -243,15 +243,41 @@ What will be the output of this expression? **_You MUST explain the steps of eva
 
 **My solution:**
 ```javascript
-console.log(4 + 5 * "7"); //39
-//1. (5 * "7"): Here, the multiplication operator (*) is used between a number (5) and a string ("7"). Since one of the operands is a string, JavaScript will attempt to convert the string to a number. In this case, the string "7" will be converted to the number 7.
+/*
+1. (5 * "7"): Here, the multiplication operator (*) is used between a number (5) and a string ("7"). Since one of the operands is a string, JavaScript will attempt to convert the string to a number. In this case, the string "7" will be converted to the number 7.
 
-//2. (4 + 5 * 7): Now, we have the expression 4 + 5 * 7. The multiplication is performed first, which gives us 5 * 7 = 35.
+2. (4 + 5 * 7): Now, we have the expression 4 + 5 * 7. The multiplication is performed first, which gives us 5 * 7 = 35.
 
-//3. (4 + 35): Finally, we have the expression 4 + 35. The addition operator (+) is used between two numbers (4 and 35), and the result is 39.
+3. (4 + 35): Finally, we have the expression 4 + 35. The addition operator (+) is used between two numbers (4 and 35), and the result is 39.
+*/
 ```
 
 -------------------------------------------------------------------
+
+### QUESTION #3:
+
+Evaluate the following expression:
+
+```javascript
+let result = 5 + 2 * 3 - 1;
+```
+
+What will be the output of this expression? **_You MUST explain the steps of evaluation taken by JS_**.
+
+**My solution:**
+```javascript
+let result = 5 + 2 * 3 - 1; // result = 10;
+/*
+Multiplication: 2 * 3 = 6
+Addition: 5 + 6 = 11
+Subtraction: 11 - 1 = 10
+Therefore, after evaluating the expression let result = 5 + 2 * 3 - 1;, the variable result will hold the value 10.
+*/
+```
+-------------------------------------------------------------------
+
+### QUESTION #4:
+
 
 
 
