@@ -29,7 +29,55 @@ typeof("some string".length) // number
 typeof(undefined)   // undefined
 typeof(null)   // object
 ```
- 
+
+ ## Strings
+### String:
+Is a sequence of characters are in a specific order, each gets a number aka an "index", starting at 0.
+
+#### Examples:
+```javaScript
+"ALOHA"[0];      // “A”
+"ALOHA".length  // 5
+
+"ALOHA".indexOf("L");   //1 
+// What's the index of the first accourance of specific character
+// if not exist will return -1
+
+"ALOHA".includes("HA");  // true
+
+"ALOHA".startsWith("AL"); // true
+// Does this string start with some other string?
+
+"ALOHA".indexOf("HA"); // 3
+// At what index does this substring begin?
+
+"ALOHA" + "!" // "ALOHA!";
+ // Connecting strings together
+
+"ALOHA".toLowerCase() // "aloha";
+```
+
+   
+### Working with Strings Exercise:
+```javaScript
+// 1. Add your last name in the players listing
+document.getElementById("p1-name").append(" Thafer");
+//OR
+document.getElementById("p1-name").textConten="Aya"+" "+"Thafer";
+
+// 2. Retrieve the first "T" in the page title
+document.title.indexOf("T");
+
+// 3. Answer whether the page title contains the string "JavaScript"
+document.title.includes("JavaScript");
+
+// 4. Capitalize the heading "Tic Tac Toe"
+document.querySelector("header h1").style.textTransform ="uppercase" ; 
+//OR
+document.querySelector("header h1").textContent= document.querySelector("header h1").textContent.toUpperCase();
+```
+
+
 
 ## FreeCodeCamp challenges🔥:
 
