@@ -148,6 +148,32 @@ but unlike arrays we ***Can't*** use *indexes* to get to the property:
 js[0]; // undefined
 ```
 
+##  **Object Methods** 
+Properties can point to functions too.
+We call function-properties "methods" on objectsCopy
+```javaScript
+const dog = {
+    name: "Ein",
+    breed: "Corgi",
+    speak: function () {
+        console.log("woof woof");
+    }
+}
+dog.speak(); //"woof woof"
+```
+
+Some Built-in methods:
+* `.indexOf()`
+* `.sort()`
+* `this.`
+
+## Built in objects:
+
+1. document
+2. array
+3. console : has methods : log, error 
+4. Math
+5. Function
 
 ## FreeCodeCamp challenges🔥:
 1. [Compound Assignment With Augmented Multiplication](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/compound-assignment-with-augmented-multiplication)
