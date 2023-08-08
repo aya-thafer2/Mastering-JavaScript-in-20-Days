@@ -203,7 +203,6 @@ const yello = hello.toUpperCase();
 ## Quiz Project 
 ```HTML
 <!DOCTYPE html>
-<!-- saved from url=(0038)file:///home/sarah/Downloads/Quiz.html -->
 <html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <title>Quiz.js</title>
