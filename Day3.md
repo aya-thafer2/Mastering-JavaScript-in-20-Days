@@ -150,7 +150,7 @@ js[0]; // undefined
 
 ##  **Object Methods** 
 Properties can point to functions too.
-We call function-properties "methods" on objectsCopy
+We call function-properties "methods" on objects.
 ```javaScript
 const dog = {
     name: "Ein",
