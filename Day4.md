@@ -84,7 +84,18 @@ const yell = (str)=> str.toUpperCase()
 const longerThan = (a,b)=> a.length >= b.length
 ```
 
+  
+###  setAttribute() & removeAttribute() methods 
+`setAttribute` : Sets the value of an attribute on the specified element. If the attribute already exists, the value is updated; otherwise a new attribute is added with the specified name and value.
+```javaScript
+setAttribute(name, value)
+```
 
+ 
+` removeAttribute`: removes the attribute with the specified name from the element.
+```javaScript
+removeAttribute(attrName)
+```
 
 ## Quiz Project 
 ```HTML
@@ -241,7 +252,55 @@ const longerThan = (a,b)=> a.length >= b.length
 
         })
     }
+     // TODO 4: Declare disable & enable functions to set or remove the "disabled" attribute from a given button element
+    // disable(button) should set the button element's attribute "disabled" to the value ""
+    // enable(button) should remove the attribute "disabled" from the button element
+
+    const disable = button =>{
+        button.setAttribute("disabled","")
+    }
+
+    const enable = button =>{
+         button.removeAttribute("disabled")
+    }
+
+
+    // TODO 5: Declare an isCorrect function that compares a guess to the right answer
+    // isCorrect(guess) should return true if the guess matches the fact's answer
     
+    const isCorrect = guess =>{ return guess === fact.answer.toString()}
+
+
+    // TODO 6A: Use a for loop to add a click event listener to each of the optionButtons
+    for (let b of optionButtons){
+        b.addEventListener("click", event =>{
+            
+        
+    
+            // TODO 6B: Within the event handler function, display the fact's explanation by setting the text of the explanation element
+            
+            explanation.textContent = fact.explanation
+
+            // TODO 7: Within the event handler function, 
+            // Use a for loop to disable all the option buttons
+
+            for (let allB of optionButtons)
+                disable(allB)
+        
+
+            // TODO 8: Within the event handler function,
+            // Get the guessed value from the clicked button
+            // Use a conditional to compare the guess to the fact's answer
+            // and add the "correct"/"incorrect" class as appropriate
+
+            if (isCorrect(b.value)){
+                b.classList.add("correct")
+            }else{
+                b.classList.add("incorrect")
+            }
+
+        })
+    }
   </script>
 
 </body></html>
