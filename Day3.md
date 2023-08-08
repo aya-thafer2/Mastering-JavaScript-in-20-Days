@@ -393,7 +393,15 @@ function lookUpProfile(name, prop) {
 lookUpProfile("Akira", "likes");
 ```
 
+4. [Write Reusable JavaScript with Functions](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/write-reusable-javascript-with-functions)
 
+My solution:
+```javaScript
+function reusableFunction() {
+  console.log("Hi World");
+}
+reusableFunction();
+```
 
 
 
