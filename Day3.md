@@ -424,5 +424,14 @@ function addFive() {
 addThree();
 addFive();
 ```
+6. [Return a Value from a Function with Return](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/return-a-value-from-a-function-with-return)
 
+My solution:
+```javaScript
+function timesFive(num) {
+  return num*5;
+}
+
+const answer = timesFive(5);
+```
 
