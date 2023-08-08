@@ -97,6 +97,38 @@ setAttribute(name, value)
 removeAttribute(attrName)
 ```
 
+### Scope
+In JS it doesn't matter ***What*** variables we declare, it also matters ***Where*** we declare them.
+**Scope** determines where variables are "in play".
+
+Within each scope, you can access variables declared in a wider scope (e.g. global scope) But not those declared in a narrower scope (e.g. function scope) 
+
+### var vs. let:
+* `var`: 
+If we declared the same variable in the block scope, the old variable will point to the new value - JS **will not declare** a new variable.
+* `let`:
+If we declared the same variable in the block scope, JS **will declare** a new variable with a new value.
+```javaScript
+var varVariable = "original";
+let letVariable = "original";
+
+// this is called block scope
+{
+    var varVariable = "changed";
+    let letVariable = "changed";
+}
+// varVariable = "changed"
+// letVariable = "original"
+```
+
+#### 💡 **NOTES:**
+1. The **`Function`** object provides methods.
+2. `this` keyword works differently in arrow function and normal function.
+3. To set or remove any attribute for element we use `setAttribue` & `removeAttribute`.
+4. The browser looks whether the disabled attribute exists or not, regardless to its value.
+
+
+
 ## Quiz Project 
 ```HTML
 <!DOCTYPE html>
