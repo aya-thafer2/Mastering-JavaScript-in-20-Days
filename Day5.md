@@ -367,3 +367,126 @@ console.log(skills); //this will return the array as an object
 // Array (6) ["HTML", "CSS" , "JS" , "React", "TypeScript", "Node"]
 ```
 
+
+## Doggo Fetch Project  🧐🪩
+```javaScript
+<!DOCTYPE html>
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Doggo Fetch</title>
+    <style>
+        body {
+            margin: 1rem auto;
+            padding: 3rem;
+            font-family: sans-serif;
+        }
+        header {
+            width: 70%;
+            margin: 1em auto;
+        }
+        main {
+            max-width: 70%;
+            margin: 0px auto;
+            display:flex; 
+            flex-direction: column;
+        }
+        img {
+            max-width: 100%;
+        }
+        #image-frame {
+            font-size: x-large;
+            text-align: center;
+            margin: 1rem auto;
+        }
+        #explanation, #score {
+            padding: 1rem;
+            text-align: center;
+        }
+        #options {
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        button {
+            padding: 0.5rem;
+            font-size: medium;
+            border-radius: 5px;
+        }
+        .correct {
+            background-color: lightgreen;
+        }
+        .incorrect {
+            background-color: lightpink;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+    <h1>Guess the Doggo</h1>
+    <p>What breed is the dog in this image?</p>
+
+    </header>
+
+    <main>
+    <div id="image-frame"><img src="./Final_files/PXL_20210220_100624962.jpg"></div>
+    <div id="options">
+    <button name="medium poodle" value="medium poodle" class="correct">medium poodle</button><button name="australian terrier" value="australian terrier" class="incorrect">australian terrier</button><button name="french bulldog" value="french bulldog">french bulldog</button></div>
+
+    </main>
+
+  
+
+
+  <script type="module">
+
+    const RANDOM_IMG_ENDPOINT = "https://dog.ceo/api/breeds/image/random";
+
+    const BREEDS = ["affenpinscher", "african", "airedale", "akita", "appenzeller", "shepherd australian", "basenji", "beagle", "bluetick", "borzoi", "bouvier", "boxer", "brabancon", "briard", "norwegian buhund", "boston bulldog", "english bulldog", "french bulldog", "staffordshire bullterrier", "australian cattledog", "chihuahua", "chow", "clumber", "cockapoo", "border collie", "coonhound", "cardigan corgi", "cotondetulear", "dachshund", "dalmatian", "great dane", "scottish deerhound", "dhole", "dingo", "doberman", "norwegian elkhound", "entlebucher", "eskimo", "lapphund finnish", "bichon frise", "germanshepherd", "italian greyhound", "groenendael", "havanese", "afghan hound", "basset hound", "blood hound", "english hound", "ibizan hound", "plott hound", "walker hound", "husky", "keeshond", "kelpie", "komondor", "kuvasz", "labradoodle", "labrador", "leonberg", "lhasa", "malamute", "malinois", "maltese", "bull mastiff", "english mastiff", "tibetan mastiff", "mexicanhairless", "mix", "bernese mountain", "swiss mountain", "newfoundland", "otterhound", "caucasian ovcharka", "papillon", "pekinese", "pembroke", "miniature pinscher", "pitbull", "german pointer", "germanlonghair pointer", "pomeranian", "medium poodle", "miniature poodle", "standard poodle", "toy poodle", "pug", "puggle", "pyrenees", "redbone", "chesapeake retriever", "curly retriever", "flatcoated retriever", "golden retriever", "rhodesian ridgeback", "rottweiler", "saluki", "samoyed", "schipperke", "giant schnauzer", "miniature schnauzer", "english setter", "gordon setter", "irish setter", "sharpei", "english sheepdog", "shetland sheepdog", "shiba", "shihtzu", "blenheim spaniel", "brittany spaniel", "cocker spaniel", "irish spaniel", "japanese spaniel", "sussex spaniel", "welsh spaniel", "english springer", "stbernard", "american terrier", "australian terrier", "bedlington terrier", "border terrier", "cairn terrier", "dandie terrier", "fox terrier", "irish terrier", "kerryblue terrier", "lakeland terrier", "norfolk terrier", "norwich terrier", "patterdale terrier", "russell terrier", "scottish terrier", "sealyham terrier", "silky terrier", "tibetan terrier", "toy terrier", "welsh terrier", "westhighland terrier", "wheaten terrier", "yorkshire terrier", "tervuren", "vizsla", "spanish waterdog", "weimaraner", "whippet", "irish wolfhound"];
+
+    
+    // Utility function to get a randomly selected item from an array
+    function getRandomElement(array) {
+        const i = Math.floor(Math.random() * array.length);
+        return array[i];
+    }
+
+    // Utility function to shuffle the order of items in an array in-place
+    function shuffleArray(array) {
+        return array.sort((a,b) => Math.random() - 0.5);
+    }
+
+
+
+    // TODO 1
+    // Given an array of possible answers, a correct answer value, and a number of choices to get,
+    // return a list of that many choices, including the correct answer and others from the array
+    function getMultipleChoices(n, correctAnswer, array) {
+        // Use a while loop and the getRandomElement() function
+        // Make sure there are no duplicates in the array
+        const choices = [correctAnswer];
+        while (choices.length < n) {
+            let candidate = getRandomElement(array);
+            if (choices.indexOf(candidate) < 0) { // check if this is already in the array
+                choices.push(candidate); // if not, add it
+            }
+        }
+        return shuffleArray(choices);
+    }
+
+  </script>
+
+</body></html>
+```
+
+
+## (A)synchronous code: 
+### **Some things that take time:** 
+
+1. Waiting for user events.
+2. Asking a user to pick a file. 
+3. Getting permission to access the camera/mic. 
+4. Loading data from the interwebs.
+
