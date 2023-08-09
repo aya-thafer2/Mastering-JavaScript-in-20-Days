@@ -128,8 +128,8 @@ let letVariable = "original";
 4. The browser looks whether the disabled attribute exists or not, regardless to its value.
 
 
-
 ## Quiz Project 
+The whole project is done in [Day5](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/edit/main/Day5.md).
 
 
 
