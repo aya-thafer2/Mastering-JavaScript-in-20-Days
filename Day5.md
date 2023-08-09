@@ -1,4 +1,40 @@
+# Day 5 🤩
 
+## Conditionals  
+### If statment: 
+* If it's given some other value, JS will convert it to a boolean and decide based on its "truthiness”:
+
+```javaScript
+if ("nonempty strings are truthy") {
+    console.log("this line will run");
+}
+//"this line will run"
+```
+
+* Objects are *truthy*, array is an object so **empty array** is **truthy**:
+
+```javaScript
+// Is an empty array truthy or falsy? 
+
+if ([]){
+    console.log("empty array is a truth value");
+}else{
+    console.log("empty array is a false value");
+} 
+// "empty array is a truth value"
+```
+* But **empty string** is **falsy**:
+
+```javaScript
+if (""){
+    console.log("empty string is a truth value");
+}else{
+    console.log("empty string is a false value");
+} 
+//"empty string is a false value"
+```
+   **This happens cuz string is immutable so we can't push elements to it, other than arrays which are mutable.**
+   
 
 
 
