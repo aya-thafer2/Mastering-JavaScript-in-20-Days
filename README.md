@@ -16,7 +16,7 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
  - [Deep JavaScript Foundations, v3](https://frontendmasters.com/courses/deep-javascript-v3/)
 
 ## Coding Challenges
- - [Basic JavaScript](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript) - 11 Challanges.
+ - [Basic JavaScript](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript) - 12 Challanges.
  - [Object Oriented Programming](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#object-oriented-programming) - 1 Challenge.
 
 
