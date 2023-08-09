@@ -286,3 +286,84 @@ A
 </body></html>
 ```
 
+## map & filter: 
+The map & filter methods also let us process all the items in an array
+
+### `map` : 
+ alls a function on each item in an array to create a new array:
+ ```javaScript
+const spices = [
+    {name: "Emma", nickname: "Baby"},
+    {name: "Geri", nickname: "Ginger"},
+    {name: "Mel B", nickname: "Scary"},
+    {name: "Mel C", nickname: "Sporty"},
+    {name: "Victoria", nickname: "Posh"}
+];
+const nicknames = spices.map(s => `${s.nickname} Spice`;);
+
+/*
+	[
+	  'Baby Spice',
+	  'Ginger Spice',
+	  'Scary Spice',
+	  'Sporty Spice',
+	  'Posh Spice'
+	]
+*/
+```
+
+### `filter` : 
+Calls a true/false function on each item and creates a new array with only the items where the function returns true:
+```javaScript
+const mels = spices.filter(s => s.name.includes("Mel"));
+```
+ 
+ #### 💡**NOTE:**
+> * `map` & `filter` return an array.
+> * `map` & `filter` **DO NOT** modify the original array.
+ 
+### Exercise: 
+```javaScript
+/* From the spices array, use map and filter to:
+
+create a new array names with only the name of each girl
+create a new array endInY with just the girls whose nickname ends in "y" */
+
+const spices = [
+    {name: "Emma", nickname: "Baby"},
+    {name: "Geri", nickname: "Ginger"},
+    {name: "Mel B", nickname: "Scary"},
+    {name: "Mel C", nickname: "Sporty"},
+    {name: "Victoria", nickname: "Posh"}
+];
+
+const names = spices.map(s=>s.name)
+const endInY = spices.filter(s=>s.nickname.endsWith("y"))
+```
+
+### Spread (...)
+* It lets us take all the items in an array and spread 'em around:
+```javaScript
+const oldBurns = ["square", "wack"];
+const newBurns = ["basic", "dusty", "sus"];
+
+const burnBook = [...oldBurns, ...newBurns];
+// equivalent to
+const burnBook = oldBurns.concat(newBurns);
+```
+* We can also use it to pass all the items from an array as arguments to a function or method:
+```javaScript
+const skills = ["HTML", "CSS" , "JS"];
+const newSkills = ["React", "TypeScript", "Node"];
+
+skills.push(...newSkills);
+//skills = ["HTML", "CSS" , "JS" , "React", "TypeScript", "Node"]
+
+console.log(...skills); // this will return the elements of the array as strings
+//HTML CSS JS React TypeScript Node
+
+// this is different than this
+console.log(skills); //this will return the array as an object 
+// Array (6) ["HTML", "CSS" , "JS" , "React", "TypeScript", "Node"]
+```
+
