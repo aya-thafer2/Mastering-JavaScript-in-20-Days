@@ -36,6 +36,45 @@ if (""){
    **This happens cuz string is immutable so we can't push elements to it, other than arrays which are mutable.**
    
 
+ 
+###  Loops:
+#### Enhanced loop:
+
+Traditional loop:
+```javaScript
+const numbers = [1,2,3];
+for (let i = 0; i < numbers.length; i++) {
+    console.log(numbers[i]);
+}
+```
+
+**Enhanced** loop:
+```javaScript
+for (let n of numbers) {
+    console.log(n);
+}
+```
+We can use this loop to loop on string charecters cuz *strings & arrays* are ***"iterable"***:
+```javaScript
+for (let char of "ALOHA") {
+    console.log(char);
+}
+/*
+A
+L
+O
+H
+A
+*/
+```
+
+#### 💡**NOTE:**
+> Attention to the `of` in the for loop, cuz there is another for loop in JS that contains `in` but they are not the same.
+
+> for ( let n `of` numbers) {
+    console.log(n);
+}
+
 
 
 ## Quiz Project 
