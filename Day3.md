@@ -201,7 +201,7 @@ const yello = hello.toUpperCase();
 
 
 ## Quiz Project 
-The whole project is done in [Day4](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/edit/main/Day4.md).
+The whole project is done in [Day5](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/edit/main/Day5.md).
 
 
 
