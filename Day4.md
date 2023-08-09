@@ -127,6 +127,55 @@ let letVariable = "original";
 3. To set or remove any attribute for element we use `setAttribue` & `removeAttribute`.
 4. The browser looks whether the disabled attribute exists or not, regardless to its value.
 
+## Events & Handlers 
+
+* **`.addEventListener()`** takes 2 parameters:
+    1. The **name of the event** to listen to (e.g. "*click*").
+    2. A **handler function** that JS calls when that event is fired on this element.
+
+```javaScript
+document.addEventListener("click", () => {
+    console.log("clicked");
+});
+```
+
+### Event Object
+
+JS passes an **event object** to the handler function with information about the event. 
+If we accept this as a parameter, we can use it to get details:
+
+```javaScript
+document.addEventListener("click", (event) => {
+    console.log(event);
+});
+```
+
+
+### `event.target` 
+Is the element the event fired on (in this case, which element was clicked)
+```javaScript
+document.addEventListener("click", (event) => {
+    console.log(event.target);
+});
+```
+
+### Some events: 
+1. `click`
+2. `dblclick`
+3. `mouseover`
+4. `mouseout`
+
+
+```javaScript
+let b = document.getElementsByName("true")[0]
+b.addEventListener("mouseover", () => {
+    console.log("The carser is in the button")
+});
+
+b.addEventListener("mouseout", () => {
+    console.log("The carser is out the button")
+});
+```
 
 ## Quiz Project 
 The whole project is done in [Day5](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/edit/main/Day5.md).
