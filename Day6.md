@@ -65,6 +65,27 @@ const [,,melB] = spices;
 #### 💡**NOTE:**
 > Order is important when destructuring arrays but not in objects.
 
+
+## `async`
+
+If we try to `await` something in a *regular function*, ***JS doesn't allow it*** >>> we have to write an `async` function.
+
+
+### `createElement()` 
+In an HTML document, the document`.createElement()` method creates the HTML element specified by tagName
+
+```javaScript
+const button = document.createElement("button")
+```
+
+
+### `appendChild()` 
+The`.appendChild()` method of the Node interface adds a node to the end of the list of children of a specified parent node.
+
+```javaScript
+options.appendChild(button)
+```
+
 ## Doggo Fetch Project
 ```javaScript
 <!DOCTYPE html>
@@ -266,4 +287,7 @@ const [,,melB] = spices;
 
 </body></html>
 ```
+
+
+
 
