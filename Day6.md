@@ -339,6 +339,7 @@ console.log("still rollin' with the homies");
 # Exercises🔥:
 
 [Task Discription]("https://github.com/orjwan-alrajaby/gsg-QA-Nablus-training-2023/blob/main/learning-sprint-1/week1%20-%20javascript-from-first-steps-to-professional/day%206/task.md")
+
 [**My Solution**]("https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/tree/main/Tasks/Rick%20and%20Morty%20Characters%20List")
 
 
