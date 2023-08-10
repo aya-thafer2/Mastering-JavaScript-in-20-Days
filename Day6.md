@@ -289,5 +289,51 @@ options.appendChild(button)
 ```
 
 
+### Module scope:
+
+> ### 💡 Note:
+> We can't access variables and functions in the web console.
+
+
+## Debugging: 
+We can `console.log()` or `console.warn()` or `console.error()` is one way to understand what's happening when your program runs
+
+```javaScript
+function whyIsntThisWorking(input) {
+    console.log("Well at least we got this far");
+    console.log(input);
+    return thingThatDoesntWork(input);
+}
+```
+
+You can also use the browser's debugger to pause JS and inspect what's happening, The `debugger` statement creates a *breakpoint* where JS will pause and let you look around:
+
+```javaScript
+function whyIsntThisWorking(input) {
+    debugger;
+    return thingThatDoesntWork(input);
+}
+```
+
+
+## 💡 **Notes:**
+1. **`trim()`** method removes whitespace from both ends of a string and returns a new string, without modifying the original string.
+2. In `JS` we can create any element we want to appear in HTML page.
+   
+### `try` `catch` Error Handling
+
+`try` lets us "watch out" for potential errors, its friend `catch` lets us manage errors when they occur:
+
+```javaScript
+try {
+    thisMightThrowAnError();
+} catch (error) {
+    console.error("As if! Error:", error); 
+    console.log("Whatever, let's press on anyway");
+}
+console.log("still rollin' with the homies");
+```
+
+
 
 
