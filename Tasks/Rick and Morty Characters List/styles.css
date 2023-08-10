@@ -1,0 +1,43 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: gainsboro;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .title {
+    color:black;
+    font-size: 48px;
+    text-align: center;
+    margin: 40px;
+  }
+  #characterList{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding-block: 2rem;
+  }
+
+  .aliveCharacter{
+    text-align: center;
+    background-color: white;
+    border-radius: 5%;
+    padding : 2rem; 
+    box-shadow: 9px 8px 10px rgba(0, 0, 0, 0.2);
+  }
+  .aliveCharacter img{
+    border-radius: 5%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  .aliveCharacter span{
+    font-weight: bold;
+  }
+  .aliveCharacter h2{
+    padding: .5rem;
+  }
