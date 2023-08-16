@@ -125,5 +125,33 @@ urlSlug("A Mind Needs Books Like A Sword Needs A Whetstone");
 
 
 
+## GSG Challenges🔥
+
+## Question 1: Functions and Callbacks
+
+Implement a JavaScript function called mapAsync that takes an array and a callback function. 
+The function should map each element of the array to a new value using the callback function 
+asynchronously. 
+
+The final result should be returned as a Promise.
+My solution:
+```javaScript
+
+```
+-------------------------------------------------------------------
+## Question 2: Call Stack and Recursion
+
+Write a JavaScript function called sumRange that calculates the sum of all integers in a given range. 
+The function should use recursion to handle the calculation and demonstrate understanding of the call stack.
+
+My solution:
+```javaScript
+function sumRange(x,y){
+    if(y<=x) return y;
+    return y+sumRange(x,y-1);
+}
+
+console.log(sumRange(10,15));
+```
 
 
