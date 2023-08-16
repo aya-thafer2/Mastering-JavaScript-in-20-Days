@@ -22,15 +22,21 @@ It is a traditional way of storing information in a computer.
 JavaScript keeps track of what function is currently running (where’s the thread of execution).
 
 * Run a function - add to call stack.
-* Finish running the function - JS removes it from call stack.
+* Finish running the function - JS *removes it* from call stack.
 * Whatever is top of the call stack - that’s the function we’re   currently running.
 
-
-
- We create a little mini program, a little sub-program, an execution context into which we go and compartmentalize any data we're storing while we're inside that function. *When we exit that function*, **all is deleted, besides whatever we return out**, and then run another function do the same.
-We keep track of the functions we're running and where our thread of execution is using our call stack:
+  Here is how it goes:
+1. Think of all of our code inside a function with the label `global`, and as soon as we turn on JavaScript, start running the code, run that `global function` run the overall code.
+2. So that's always as soon as you start running JavaScript, `global` is added on the bottom. And that's ***always there***.
+3. So when we start running `multiplyBy2()` we add it on top, *when we finish running it, we remove it*, and It goes back to `global()`.
 
 ![Screenshot (201)](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/1561e813-fda5-4286-931b-9a34e7dd1d31)
+
+#### Sammary:
+1. We create a little mini program, a little sub-program, an execution context into which we go and compartmentalize any data we're storing while we're inside that function.
+2. *When we exit that function*, **all is deleted, besides whatever we return out**, and then run another function do the same.
+3. We keep track of the functions we're running and where our thread of execution is using our call stack.
+
 
 #### 💡**NOTE:**
 ### **The 3 core components of JavaScript:**
