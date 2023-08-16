@@ -18,7 +18,7 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
 ## Coding Challenges
  - [Basic JavaScript](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript) - 14 Challanges.
  - [Object Oriented Programming](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#object-oriented-programming) - 1 Challenge.
- - [Functional Programming](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#functional-programming) - 2 Challenge.
+ - [Functional Programming](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#functional-programming) - 3 Challenges.
 
 
 ## Daily Learning Process
@@ -43,3 +43,4 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
 -  [**Day 4**](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/blob/main/Day4.md)
 -  [**Day 5**](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/blob/main/Day5.md)
 -  [**Day 6**](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/blob/main/Day6.md)
+-  [**Day 7**](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/blob/main/Day7.md)
