@@ -27,8 +27,8 @@ JavaScript keeps track of what function is currently running (where’s the thre
 
 
 
-* We create a little mini program, a little sub-program, an execution context into which we go and compartmentalize any data we're storing while we're inside that function. *When we exit that function*, **all is deleted, besides whatever we return out**, and then run another function do the same.
-* We keep track of the functions we're running and where our thread of execution is using our call stack:
+ We create a little mini program, a little sub-program, an execution context into which we go and compartmentalize any data we're storing while we're inside that function. *When we exit that function*, **all is deleted, besides whatever we return out**, and then run another function do the same.
+We keep track of the functions we're running and where our thread of execution is using our call stack:
 
 ![Screenshot (201)](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/1561e813-fda5-4286-931b-9a34e7dd1d31)
 
