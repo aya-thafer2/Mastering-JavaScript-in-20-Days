@@ -34,10 +34,10 @@ We keep track of the functions we're running and where our thread of execution i
 
 #### 💡**NOTE:**
 ### **The 3 core components of JavaScript:**
-- Execution Context:
-	1. Thread of execution
-	2. Memory
-3. Call stack
+1. Thread of execution - *part of Execution Context*.
+2. Memory - *part of Execution Context*.
+3. Call stack.
+
 
 ## Functions & Callbacks 
 
