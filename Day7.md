@@ -101,8 +101,7 @@ My solution:
 ```javaScript
 const squareList = arr => {
   // Only change code below this line
-  arr= arr.filter(ele => ele>0 && ele%1==0).map(posEle => posEle*posEle);
-  return arr;
+  return arr.filter(ele => ele>0 && ele%1==0).map(posEle => posEle*posEle);
   // Only change code above this line
 };
 
