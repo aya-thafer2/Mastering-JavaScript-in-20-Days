@@ -25,7 +25,7 @@ JavaScript keeps track of what function is currently running (where’s the thre
 * Finish running the function - JS *removes it* from call stack.
 * Whatever is top of the call stack - that’s the function we’re   currently running.
 
-  Here is how it goes:
+  ***Here is how it goes:***
 1. Think of all of our code inside a function with the label `global`, and as soon as we turn on JavaScript, start running the code, run that `global function` run the overall code.
 2. So that's always as soon as you start running JavaScript, `global` is added on the bottom. And that's ***always there***.
 3. So when we start running `multiplyBy2()` we add it on top, *when we finish running it, we remove it*, and It goes back to `global()`.
