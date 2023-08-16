@@ -94,6 +94,35 @@ const result = copyArrayAndManipulate([1, 2,
 ```
 
 
+## FreeCodeCamp challenges🔥:
+1. [Use Higher-Order Functions map, filter, or reduce to Solve a Complex Problem](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/use-higher-order-functions-map-filter-or-reduce-to-solve-a-complex-problem)
+
+My solution:
+```javaScript
+const squareList = arr => {
+  // Only change code below this line
+  arr= arr.filter(ele => ele>0 && ele%1==0).map(posEle => posEle*posEle);
+  return arr;
+  // Only change code above this line
+};
+
+const squaredIntegers = squareList([-3, 4.8, 5, 3, -3.2]);
+console.log(squaredIntegers);
+```
+
+
+2. [Apply Functional Programming to Convert Strings to URL Slugs](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/functional-programming/apply-functional-programming-to-convert-strings-to-url-slugs)
+
+My solution:
+```javaScript
+// Only change code below this line
+function urlSlug(title) {
+return title.toLowerCase().split(" ").filter(ele => ele!=="").join("-");
+
+}
+// Only change code above this line
+urlSlug("A Mind Needs Books Like A Sword Needs A Whetstone");
+```
 
 
 
