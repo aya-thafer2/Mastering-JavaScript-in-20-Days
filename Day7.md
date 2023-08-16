@@ -138,7 +138,16 @@ The final result should be returned as a Promise.
 My solution:
 
 ```javaScript
+async function mapAsync(array, callback) {
+  const results = [];
+  
+  for (let i = 0; i < array.length; i++) {
+    const result = await callback(array[i], i);
+    results.push(result);
+  }
 
+  return results;
+}
 ```
 -------------------------------------------------------------------
 ## Question 2: Call Stack and Recursion
