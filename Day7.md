@@ -134,7 +134,9 @@ The function should map each element of the array to a new value using the callb
 asynchronously. 
 
 The final result should be returned as a Promise.
+
 My solution:
+
 ```javaScript
 
 ```
