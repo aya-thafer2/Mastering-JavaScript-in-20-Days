@@ -1,3 +1,5 @@
+#[JavaScript: From First Steps to Professional](https://frontendmasters.com/courses/javascript-first-steps/)
+
 # Day 1 🤩
 
    
