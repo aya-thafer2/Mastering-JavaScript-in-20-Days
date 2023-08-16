@@ -18,7 +18,7 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
 ## Coding Challenges
  - [Basic JavaScript](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#basic-javascript) - 14 Challanges.
  - [Object Oriented Programming](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#object-oriented-programming) - 1 Challenge.
- - [Functional Programming](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#functional-programming) - 3 Challenges.
+ - [Functional Programming](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#functional-programming) - 4 Challenges.
 
 
 ## Daily Learning Process
