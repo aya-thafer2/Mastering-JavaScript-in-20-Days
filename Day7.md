@@ -47,7 +47,7 @@ JavaScript keeps track of what function is currently running (where’s the thre
 
 ## Functions & Callbacks 
 
-We could generalize our function - So we pass in our specific instruction only when we run copyArrayAndManipulate!
+We could generalize our function - So we pass in our specific instruction only when we run `copyArrayAndManipulate`!
 
 ```javaScript
 function copyArrayAndManipulate(array, instructions) {
@@ -62,6 +62,35 @@ const result = copyArrayAndManipulate([1, 2,
 
 /* If I want to add 2 or divide or subtract 3 ot any fanctionality I just write
 the small faunction for it */
+```
+
+## Callbacks & Higher order functions
+
+### First class objects
+
+* ***Functions* in javascript `=` *first class objects***.
+* They can co-exist with and can be treated like any other javascript object:
+    1. Assigned to variables and properties of other objects.
+    2. Passed as arguments into functions.
+    3. Returned as values from functions.
+
+### Higher Order Function:
+The outer function that takes in a function or return one is our higher-order function. Which is  `copyArrayAndManipulate` in the example below.
+
+### Callback Function:
+The function we insert is our callback function. Which is  `multiplyBy2` in the example below.
+
+```javaScript
+function copyArrayAndManipulate(array, instructions) {
+ const output = [];
+ for (let i = 0; i < array.length; i++) {
+		 output.push(instructions(array[i]));
+	}
+ return output;
+}
+function multiplyBy2(input) { return input * 2; }
+const result = copyArrayAndManipulate([1, 2,
+
 ```
 
 
