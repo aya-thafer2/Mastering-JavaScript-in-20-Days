@@ -32,6 +32,7 @@ We keep track of the functions we're running and where our thread of execution i
 
 ![Screenshot (201)](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/1561e813-fda5-4286-931b-9a34e7dd1d31)
 
+#### 💡**NOTE:**
 ### **The three core components of JavaScript:**
 - Thread of execution
 - Memory
