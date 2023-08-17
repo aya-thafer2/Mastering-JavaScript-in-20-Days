@@ -189,7 +189,14 @@ function calculateAverage (nums) {
 Write a closure named powerOf that takes a base number base and returns a function. 
 The returned function, when invoked with an exponent exp, should calculate and return the result of base raised to the power of exp.
 ```javaScript
+function powerOf(base) {
 
+  function calculatePowerOf(exp) {
+    return  Math.pow(base, exp);
+  }
+
+  return calculatePowerOf;
+}
 ```
 -------------------------------------------------------------------
 ## Question 4: 
