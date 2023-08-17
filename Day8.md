@@ -96,28 +96,7 @@ JavaScript is:
 - ***Single threaded*** (one command runs at a time).
 - ***Synchronously executed*** (each line is run in order the code appears).
 
-```javaScript
-function printHello() { console.log("Hello"); }
 
-function blockFor1Sec() {
-    setTimeout(()=>{console.log("1 sec");},1000)
-    //blocks in the JavaScript thread for 1 sec
-}
-
-setTimeout(printHello, 0);
-blockFor1Sec();
-console.log("Me first!");
-
-/* 
-	Me first!
-	Hello
-	1 sec
-*/
-```
-
-
-> ### 💡Note:
-> setTimeOut doesn't do anything in JS it consequences in the web browser.
 
 ### **JavaScript is not enough We need new pieces (some of which aren’t JavaScript at all):**
 In JavaScript we get a bunch of facade functions, **they are functions that look like they're JavaScript but are actually fronts, facades, for web browser features**. We get labels for each of these features:
