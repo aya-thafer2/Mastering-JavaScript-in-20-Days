@@ -163,6 +163,14 @@ function createCounter(start) {
 
   return increment;
 }
+
+const counter1 = createCounter(0);
+console.log(counter1()); // Output: 1
+console.log(counter1()); // Output: 2
+
+const counter2 = createCounter(5);
+console.log(counter2()); // Output: 6
+console.log(counter2()); // Output: 7
 ```
 -------------------------------------------------------------------
 ## Question 2:
@@ -182,6 +190,12 @@ function calculateAverage (nums) {
 
   return avg;
 }
+
+const avgFunc = calculateAverage([5, 10, 15, 20]);
+console.log(avgFunc()); // Output: 12.5
+
+const anotherAvgFunc = calculateAverage([2, 4, 6]);
+console.log(anotherAvgFunc()); // Output: 4
 ```
 -------------------------------------------------------------------
 ## Question 3: 
@@ -197,6 +211,14 @@ function powerOf(base) {
 
   return calculatePowerOf;
 }
+
+const powerOfTwo = powerOf(2);
+console.log(powerOfTwo(3)); // Output: 8 (2^3)
+console.log(powerOfTwo(4)); // Output: 16 (2^4)
+
+const powerOfThree = powerOf(3);
+console.log(powerOfThree(2)); // Output: 9 (3^2)
+console.log(powerOfThree(3)); // Output: 27 (3^3)
 ```
 -------------------------------------------------------------------
 ## Question 4: 
