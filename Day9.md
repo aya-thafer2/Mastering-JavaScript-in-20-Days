@@ -42,9 +42,9 @@ console.log("Me first!");
 ![Screenshot (226)](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/68e80e40-99fb-4073-a63f-b9d5da0f9b5d)
 
 
-Is there anything on the call stack? If there is, just do it. Is there anything left running global, do it. If it's all finished, head down to the queue. And that feature is known as the **Event Loop**. And it's job is simply to very quickly be checking constantly.
-We use setTimeout to trigger a timer, an associated `printHello` function was passed to it. Yes, it said 0 milliseconds until that function could be run. But what do we now know that really means? ***It means that it's 0 milliseconds until that function is put into the callback queue.***
-And then all our global code's gonna continue running, however long it takes. And when it's all done, then the event loop goes, hooray, the Call Stack is done. All global coast finish running, and we grab from the Callback Queue and put `printHello` in the Call Stack.
+* Is there anything on the call stack? If there is, just do it. Is there anything left running global, do it. If it's all finished, head down to the queue. And that feature is known as the **Event Loop**. And it's job is simply to very quickly be checking constantly.
+* We use `setTimeout to` trigger a timer, an associated `printHello` function was passed to it. Yes, it said 0 milliseconds until that function could be run. But what do we now know that really means? ***It means that it's 0 milliseconds until that function is put into the callback queue.***
+* And then all our global code's gonna continue running, however long it takes. And when it's all done, then the event loop goes, hooray, the Call Stack is done. All global coast finish running, and we grab from the Callback Queue and put `printHello` in the Call Stack.
 
 
 > ### 💡Note:
