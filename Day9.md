@@ -95,11 +95,28 @@ console.log("Finally");
 
 // will print Finally then 5 Hello's 
 ```
+  
+## Promises 
+
+* Special objects built into JavaScript that get returned immediately when we make a call to a web browser API/feature (e.g. fetch) that’s set up to return promises (not all are).
+* Promises act as a placeholder for the data we expect to get back from the web browser feature’s background work.
+
+```javaScript
+function display(data){
+    console.log(data)
+}
+const futureData = fetch('https://twitter.com/will/tweets/1')
+futureData.then(display); 
+ 
+console.log("Me first!");
+```
+A `promise object`, it's just an object *automatically created* in JavaScript by `fetch`. It has two properties:
+1. `Value` which is `undefined`.
+2. `on fulfilled` which is an `empty array` - it's a hidden property.
 
 
 
-
-
+![Screenshot (228)](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/6f4dc35f-fe42-4b2d-8cd7-99d63290901a)
 
 
 
