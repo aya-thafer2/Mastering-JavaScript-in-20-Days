@@ -52,6 +52,50 @@ console.log("Me first!");
 
 
 
+```javaScript
+function printHello() { console.log("Hello"); }
+
+function blockFor1Sec() {
+    setTimeout(()=>{console.log("1 sec");},1000)
+    //blocks in the JavaScript thread for 1 sec
+}
+
+setTimeout(printHello, 0);
+blockFor1Sec();
+console.log("Me first!");
+
+/* 
+	Me first!
+	Hello
+	1 sec
+*/
+```
+
+
+```javaScript
+setTimeout(()=>console.log("Hello"), 0);
+
+for (let i=0; i<100; i++)
+    console.log("Me first!");
+
+//for loop makes block for the execution, when finish the loop will print Hello
+```
+
+
+
+```javaScript
+function setTime() {
+    setTimeout(()=>{console.log("Hello")},4000);
+}
+
+for (let i=0; i<5; i++)
+    setTime();
+
+console.log("Finally");
+
+// will print Finally then 5 Hello's 
+```
+
 
 
 
