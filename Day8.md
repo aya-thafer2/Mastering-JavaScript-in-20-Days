@@ -66,4 +66,84 @@ If we run '`outer`' again and store the returned '`incrementCounter`' function d
 
 
 
+#### 💡 **NOTE:**
+* The inner functions' data will be brought wherever the function goes.
+* Closure gives our functions persistent memories and entirely new toolkit for writing professional code.
+
+
+### Practical Applications:  
+
+1. **Helper functions:** Everyday professional helper functions like ‘once’ and ‘memoize’.
+2. **Iterators and generators:** Which use lexical scoping and closure to achieve the
+most contemporary patterns for handling data in JavaScript.
+3. **Module pattern:** Preserve state for the life of an application without polluting the
+global namespace.
+4. **Asynchronous JavaScript:** Callbacks and Promises rely on closure to persist state
+in an asynchronous environment.
+
+## Asynchronous JavaScript & the event loop
+
+### Promises, Async & the Event Loop:
+- ***Promises*** - the most signficant ES6 feature.
+- ***Asynchronicity*** - the feature that makes dynamic web applications possible.
+- ***The event loop*** - JavaScript’s triage.
+- ***Microtask queue, Callback queue and Web Browser features (APIs)***.
+
+
+### Asynchronous JavaScript:
+**Asynchronicity is the backbone of modern web development in JavaScript yet...**
+JavaScript is:
+- ***Single threaded*** (one command runs at a time).
+- ***Synchronously executed*** (each line is run in order the code appears).
+
+```javaScript
+function printHello() { console.log("Hello"); }
+
+function blockFor1Sec() {
+    setTimeout(()=>{console.log("1 sec");},1000)
+    //blocks in the JavaScript thread for 1 sec
+}
+
+setTimeout(printHello, 0);
+blockFor1Sec();
+console.log("Me first!");
+
+/* 
+	Me first!
+	Hello
+	1 sec
+*/
+```
+
+
+> ### 💡Note:
+> setTimeOut doesn't do anything in JS it consequences in the web browser.
+
+### **JavaScript is not enough We need new pieces (some of which aren’t JavaScript at all):**
+In JavaScript we get a bunch of facade functions, **they are functions that look like they're JavaScript but are actually fronts, facades, for web browser features**. We get labels for each of these features:
+
+| JS Labels | Web Browser Features | 
+| ----------- | ----------- | 
+| `console` | Console | 
+| `xhr/fetch` | Network requests | 
+| `document` | HTML DOM | 
+| `setTimeout` | Timer | 
+
+***That means a big part of what we're doing in JavaScript isn't even JavaScript at all!***
+
+
+
+### Our core JavaScript engine has 3 main parts: 
+
+- Thread of execution.
+- Memory/variable environment.
+- Call stack.
+
+### We need to add some new components: 
+
+- Browser APIs/Node background APIs.
+- Promises.
+- Event loop, Callback/Task queue and micro task queue.
+
+
 
