@@ -28,9 +28,18 @@ const result = generatedFunc(3); // 6
 ![Screenshot (202)](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/855f6098-e0cd-45f9-baf3-8e773ad3d33a)
 
 
+### The bond:
+When a function is defined, it gets a bond to the surrounding Local Memory (“Variable Environment”) in which it has been defined.
 
 
+![Screenshot (205)](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/ddc8080e-4e5b-4428-a27e-4fbefbd0c07a)
 
+### What can we call this ‘backpack’?
+- Closed over ‘Variable Environment’ (**C.O.V.E.**)
+- Persistent Lexical Scope Referenced Data (**P.L.S.R.D.**)
+- ‘**Backpack**’
+- **‘Closure**’
+The ‘**backpack**’ (or ‘**closure**’) of live data is attached `incrementCounter` (then to `myNewFunction`) through a hidden property known as `[[scope]]` which persists when the inner function is returned out.
 
 
 
