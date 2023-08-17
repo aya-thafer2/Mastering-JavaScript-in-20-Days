@@ -1,7 +1,7 @@
 # Day 8 🤩
 
-## Asynchronous JavaScript cont.
+## Asynchronous JavaScript cont. - *Web Browser APIs with callback functions*
 
-## Web Browser APIs with callback functions
+
 
 
