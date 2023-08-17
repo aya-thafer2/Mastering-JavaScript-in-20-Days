@@ -170,7 +170,18 @@ function createCounter(start) {
 Write a closure named calculateAverage that takes an array of numbers, nums, and returns a function. 
 The returned function, when invoked, should calculate and return the average of the numbers in the array.
 ```javaScript
+function calculateAverage (nums) {
+    let sum=0;
+    
+  function avg() {
+    for(let n of nums){
+        sum += n;    
+    }
+    return sum/nums.length;
+  }
 
+  return avg;
+}
 ```
 -------------------------------------------------------------------
 ## Question 3: 
