@@ -145,6 +145,7 @@ console.log("Me first!");
 ```
 
 
+![Screenshot (253)](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/0dc56074-37c5-448e-b82d-4522871faeed)
 
 ###  Order of execution: 
 We have three things to organize the execution:
