@@ -128,7 +128,7 @@ A `promise object`, it's just an object *automatically created* in JavaScript by
 * Promise objects will automatically trigger the attached function to run (with its input being the returned data.
 
 
-### Web APIs & Promises Example: fetch
+### Web APIs & Promises Example:
 
 ```javaScript
 function display(data){console.log(data)}
@@ -146,6 +146,13 @@ console.log("Me first!");
 
 
 
+###  Order of execution: 
+We have three things to organize the execution:
+
+1. **call stack**.
+2. **microtask queue**.
+3. **callback queue**.
+ 
 
 
 
