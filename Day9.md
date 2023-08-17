@@ -122,7 +122,10 @@ A `promise object`, it's just an object *automatically created* in JavaScript by
 ![Screenshot (240)](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/23e9d544-0877-4b14-88fa-f625683555b4)
 
 
-
+### `.then` method and functionality to call on completion
+* Any code we want to run on the returned data must also be saved on the promise object.
+* Added using `.then` method to the hidden property ‘`onFulfilment`’.
+* Promise objects will automatically trigger the attached function to run (with its input being the returned data.
 
 
 
