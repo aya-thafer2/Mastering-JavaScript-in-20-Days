@@ -227,6 +227,28 @@ Write a closure named compose that takes multiple functions as arguments and ret
 The returned function should apply the provided functions in reverse order, passing the result of each function as an argument to the next function.
 
 ```javaScript
+function compose(...functions) {
+  return function(input) {
+    return functions.reduceRight((result, func) => func(result), input);
+  };
+}
+
+
+function add5(x) {
+  return x + 5;
+}
+
+function double(x) {
+  return x * 2;
+}
+
+function subtract3(x) {
+  return x - 3;
+}
+
+const composedFunction = compose(subtract3, double, add5);
+
+console.log(composedFunction(10)); // Output: 27 ((10 + 5) * 2 - 3)
 
 ```
 
