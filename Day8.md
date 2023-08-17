@@ -153,7 +153,16 @@ In JavaScript we get a bunch of facade functions, **they are functions that look
 Write a closure named createCounter that takes an initial value start and returns a function. 
 The returned function, when invoked, should increment the counter by 1 and return the updated value.
 ```javaScript
+function createCounter(start) {
+  let counter = start;
 
+  function increment() {
+    counter++;
+    return counter;
+  }
+
+  return increment;
+}
 ```
 -------------------------------------------------------------------
 ## Question 2:
