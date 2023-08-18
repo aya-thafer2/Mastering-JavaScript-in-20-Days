@@ -44,3 +44,6 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
 -  [**Day 5**](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/blob/main/Day5.md)
 -  [**Day 6**](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/blob/main/Day6.md)
 -  [**Day 7**](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/blob/main/Day7.md)
+-  [**Day 8**](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/blob/main/Day8.md)
+-  [**Day 9**](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/blob/main/Day9.md)
+-  [**Day 10**](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/blob/main/Day10.md)
