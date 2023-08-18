@@ -329,7 +329,7 @@ const apis = [
   }
 ];
 
-const executeInParallelWithPromises = (apis) => {
+const executeInParallelWithPromises = async (apis) => {
   const promises = apis.map(api => 
     fetch(api.apiUrl)
       .then(response => response.json())
