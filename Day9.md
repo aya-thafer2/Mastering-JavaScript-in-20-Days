@@ -166,6 +166,7 @@ there's two ways:
 * Using `catch`: `futureData.catch(errfun)` >>> any function we pass in there, it's going `onRejection`.
 Using `.then`: `futureData.then(fun,errfun)` >>> the second argument fun is going to `onRejection`.
 
-
+> ### 💡Note:                        
+> Any function i declear it as async, when I want to call it I should use .then() .catch() or use async/await.
 
 
