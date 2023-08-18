@@ -310,7 +310,51 @@ const executeInParallelWithPromises = (apis) => {}
 **My Solution:**
 
 ```javascript
+const executeInParallelWithPromises = (apis) => {
+  const promises = apis.map(api => 
+    fetch(api.apiUrl)
+      .then(response => response.json())
+      .then(apiData => ({
+        apiName: api.apiName,
+        apiUrl: api.apiUrl,
+        apiData: apiData
+      }))
+      .catch(error => ({
+        apiName: api.apiName,
+        apiUrl: api.apiUrl,
+        error: error.message
+      }))
+  );
 
+  return Promise.all(promises);
+};
+
+const apis = [
+  {
+    apiName: "products", 
+    apiUrl: "https://dummyjson.com/products",
+  }, 
+  {
+    apiName: "users", 
+    apiUrl: "https://dummyjson.com/users",
+  }, 
+  {
+    apiName: "posts", 
+    apiUrl: "https://dummyjson.com/posts",
+  }, 
+  {
+    apiName: "comments", 
+    apiUrl: "https://dummyjson.com/comments",
+  }
+];
+
+executeInParallelWithPromises(apis)
+  .then(results => {
+    console.log(results);
+  })
+  .catch(error => {
+    console.error(error);
+  });
 ```
 -------------------------------------------------------------------
 ## Question 3: 
