@@ -112,7 +112,8 @@ console.log("Me first!");
 ```
 A `promise object`, it's just an object *automatically created* in JavaScript by `fetch`. It has two properties:
 1. `Value` which is `undefined`.
-2. `on fulfilled` which is an `empty array` - it's a hidden property.
+2. `onFulfilled` which is an `empty array` - it's a hidden property.
+2. `onRjection` which is an `empty array` - it's a hidden property.
 
 
 
