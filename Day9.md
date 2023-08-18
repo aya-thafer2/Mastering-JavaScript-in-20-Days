@@ -261,7 +261,7 @@ const executeInSequenceWithCBs = async (tasks, callback) => {
         });
     }
     
-    return callback(massagesArr);
+    callback(massagesArr);
 };
 
 executeInSequenceWithCBs(asyncTasks,massagesArr => console.log(massagesArr));
