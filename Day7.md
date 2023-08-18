@@ -142,7 +142,7 @@ async function mapAsync(array, callback) {
   const results = [];
   
   for (let i = 0; i < array.length; i++) {
-    const result = await callback(array[i], i);
+    const result = await callback(array[i]);
     results.push(result);
   }
 
