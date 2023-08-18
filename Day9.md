@@ -157,7 +157,14 @@ We have three things to organize the execution:
 2. **microtask queue**.
 3. **callback queue**.
  
+ 
+### Promises review:
+The promise object give us this amazing feature, that means if we get an error back - not the actual response object we want. It's not even gonna auto trigger any of your functions in `onfulfilled`, it's gonna trigger any functions that you stored in `onRejection`.
 
+how do we get functions in `onRejection`?
+there's two ways:
+* Using `catch`: `futureData.catch(errfun)` >>> any function we pass in there, it's going `onRejection`.
+Using `.then`: `futureData.then(fun,errfun)` >>> the second argument fun is going to `onRejection`.
 
 
 
