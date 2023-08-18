@@ -403,7 +403,57 @@ const executeInSequenceWithPromises = (apis) => {}
  **My Solution:**
 
 ```javascript
+const executeInSequenceWithPromises = async (apis) => {
+  const results = [];
 
+  for (const api of apis) {
+    try {
+      const response = await fetch(api.apiUrl);
+      const apiData = await response.json();
+      
+      results.push({
+        apiName: api.apiName,
+        apiUrl: api.apiUrl,
+        apiData: apiData
+      });
+    } catch (error) {
+      results.push({
+        apiName: api.apiName,
+        apiUrl: api.apiUrl,
+        error: error.message
+      });
+    }
+  }
+
+  return results;
+};
+
+const apis = [
+  {
+    apiName: "products", 
+    apiUrl: "https://dummyjson.com/products",
+  }, 
+  {
+    apiName: "users", 
+    apiUrl: "https://dummyjson.com/users",
+  }, 
+  {
+    apiName: "posts", 
+    apiUrl: "https://dummyjson.com/posts",
+  }, 
+  {
+    apiName: "comments", 
+    apiUrl: "https://dummyjson.com/comments",
+  }
+];
+
+executeInSequenceWithPromises(apis)
+  .then(results => {
+    console.log(results);
+  })
+  .catch(error => {
+    console.error(error);
+  });
 ```
  
 
