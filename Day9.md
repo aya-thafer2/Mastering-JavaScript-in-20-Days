@@ -310,25 +310,6 @@ const executeInParallelWithPromises = (apis) => {}
 **My Solution:**
 
 ```javascript
-const executeInParallelWithPromises = (apis) => {
-  const promises = apis.map(api => 
-    fetch(api.apiUrl)
-      .then(response => response.json())
-      .then(apiData => ({
-        apiName: api.apiName,
-        apiUrl: api.apiUrl,
-        apiData: apiData
-      }))
-      .catch(error => ({
-        apiName: api.apiName,
-        apiUrl: api.apiUrl,
-        error: error.message
-      }))
-  );
-
-  return Promise.all(promises);
-};
-
 const apis = [
   {
     apiName: "products", 
@@ -347,6 +328,25 @@ const apis = [
     apiUrl: "https://dummyjson.com/comments",
   }
 ];
+
+const executeInParallelWithPromises = (apis) => {
+  const promises = apis.map(api => 
+    fetch(api.apiUrl)
+      .then(response => response.json())
+      .then(apiData => ({
+        apiName: api.apiName,
+        apiUrl: api.apiUrl,
+        apiData: apiData
+      }))
+      .catch(error => ({
+        apiName: api.apiName,
+        apiUrl: api.apiUrl,
+        error: error.message
+      }))
+  );
+
+  return Promise.all(promises);
+};
 
 executeInParallelWithPromises(apis)
   .then(results => {
