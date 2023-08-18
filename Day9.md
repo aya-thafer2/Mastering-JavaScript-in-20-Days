@@ -110,7 +110,9 @@ futureData.then(display);
  
 console.log("Me first!");
 ```
-A `promise object`, it's just an object *automatically created* in JavaScript by `fetch`. It has two properties:
+A `promise object`, it's just an object *automatically created* in JavaScript by `fetch`.
+
+It has 3 properties:
 1. `Value` which is `undefined`.
 2. `onFulfilled` which is an `empty array` - it's a hidden property.
 2. `onRjection` which is an `empty array` - it's a hidden property.
