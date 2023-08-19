@@ -103,7 +103,7 @@ user1.increment();
 
 # GSG Challenges🔥:
 
-
+[ALL 26 exercises of the Object Oriented Programming section](https://www.freecodecamp.org/AyaThafer)
 
 
 
