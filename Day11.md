@@ -203,6 +203,17 @@ aka: ***type conversion***.
 
 
 
+#### Why true & false shouldn’t convert to 1&0 
+
+```javaScript
+3 > 2 > 1
+(true) > 1
+1 > 1 // false !!!!
+```
+
+### ToBoolean
+
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/d91624d4-ad76-4fba-9230-513687929eab)
 
 
 
