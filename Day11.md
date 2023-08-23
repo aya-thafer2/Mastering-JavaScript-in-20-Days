@@ -224,11 +224,20 @@ aka: ***type conversion***.
 ![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/93fbb8c2-482f-40ad-87d3-43727e566845)
 ![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/10595f00-3e95-471d-b102-a5df42b85d5a)
 
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/b2e0773f-9a2b-4108-a1be-8106cd800d19)
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/de9aa565-75d4-4942-bb7d-f6febb791117)
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/331a095c-c22f-453d-9271-678565d6e88d)
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/679df739-12f9-489c-901a-da526da837f4)
+
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/d5095b2e-8f60-44d7-87e7-a4bc22f74290)
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/5173c329-0884-4b6b-b033-88ce7edd417f)
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/f98710f4-35f2-4c2c-99aa-c78780127188)
+
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/946068e6-18aa-4f08-8748-fe602ca6d86d)
 
 
-
-
-
+## #Boxing
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/ab07c0e4-3d44-4abb-8bc0-07f631f67c2b)
 
 
 
