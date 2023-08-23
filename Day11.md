@@ -95,7 +95,10 @@ the isNaN utility coerces values to numbers before it checks for them to be NaN.
 With ES6, we got a better utility, the `Number.isNan` utility. And that `Number.isNan` tells us defiantly for sure it's the NaN value or it's not. In other words ***it doesn't do any coercion*** for us.
 
 
+### Negative Zero:
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/e38c8178-4a82-4b9f-8b2c-1ce087665b1c)
 
+📌 `Object.is( , )` : it’s built-in checker, better way for checking equality (better than ===).
 
 
 
