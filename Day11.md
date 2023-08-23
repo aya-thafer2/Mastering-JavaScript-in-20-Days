@@ -79,4 +79,17 @@ let x = "2";
 ![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/10221cd2-1fde-436b-a834-d22b3ea82950)
 
 
+### NaN & isNaN:  
+📌 NaN is Special Value and it is the only value that is ***not equal*** to itself.
+
+📌 *Type of Nan*: NaN type is number (***invalid number***), becuase it cmoes from numeric operations
+
+
+### is Nan method:
+
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/de47f3d2-6cdf-4185-b03d-87298947f10d)
+
+
+the isNaN utility coerces values to numbers before it checks for them to be NaN. So, it's gonna coerce the string `my son's age` to a number and guess what number it's gonna coerce it to? The NaN value, so of course it's gonna back true.
+
 
