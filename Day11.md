@@ -164,6 +164,11 @@ console.log(Object.is(null,undefined) === false);
 console.log(Object.is(undefined,null) === false);
 ```
 
+### Fundamental Objects
+> aka: Built-In Objects 
+aka: Native Functions
+
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/55a7346a-127e-4de8-9365-8c23295226ee)
 
 
 
