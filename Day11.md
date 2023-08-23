@@ -192,7 +192,8 @@ aka: ***type conversion***.
 
 ![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/2d403684-5a89-4f85-a97b-0c2763897fce)
 
-![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/622a7006-8825-4a89-80b2-42dc3f5dfeac)
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/4488180c-4443-4ae8-abff-0326eda6bcba)
+
 
 ![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/ad14513d-111b-4a96-b022-a7591a67cac2)
 
