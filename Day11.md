@@ -97,7 +97,6 @@ With ES6, we got a better utility, the `Number.isNan` utility. And that `Number.
 
 ### Negative Zero:
 
-We might use -0 for directons in some applecaions which the sign means direction.
 
 ![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/e38c8178-4a82-4b9f-8b2c-1ce087665b1c)
 
@@ -106,6 +105,9 @@ We might use -0 for directons in some applecaions which the sign means direction
 ![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/30133e50-283f-41b3-b4f7-567a868f5f21)
 
 
+We might use -0 for directons in some applecaions which the sign means direction.
+
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/155b7443-5484-490c-9e2d-4a4b08d1c33d)
 
 
 
