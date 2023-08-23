@@ -60,6 +60,10 @@ let x = "2";
 
 📌  In JavaScript, `variables` ***don't*** have types,`values` ***do***.
 
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/cfce8e43-d2f6-47af-8faf-47fe93c2e342)
+
+
+
 📌  **undefined** vs. **undeclared** vs. **uninitialized** (aka TDZ error):
 * `undefined`: We can have a variable that's been initialized that is undefined.
 * `undeclared`: We can have a variable that was never even created.
@@ -72,6 +76,7 @@ let x = "2";
 > 3. `typeof null` = *objec*t >>> it is a *bug* in JS.
 
 
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/10221cd2-1fde-436b-a834-d22b3ea82950)
 
 
 
