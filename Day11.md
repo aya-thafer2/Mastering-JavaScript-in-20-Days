@@ -96,9 +96,14 @@ With ES6, we got a better utility, the `Number.isNan` utility. And that `Number.
 
 
 ### Negative Zero:
+
+We might use -0 for directons in some applecaions which the sign means direction.
+
 ![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/e38c8178-4a82-4b9f-8b2c-1ce087665b1c)
 
 📌 `Object.is( , )` : it’s built-in checker, better way for checking equality (better than ===).
+
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/30133e50-283f-41b3-b4f7-567a868f5f21)
 
 
 
