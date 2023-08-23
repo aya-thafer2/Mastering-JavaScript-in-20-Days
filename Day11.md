@@ -175,6 +175,42 @@ console.log(Object.is(undefined,null) === false);
 ![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/b75233bf-b584-4923-bb6e-5b6296f5c6d1)
 
 
+## Coercion 
+aka: ***type conversion***.
+
+### Abstract Operations: **ToPrimitive**
+
+#### `.toString ()`
+
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/57e87169-02a3-48b0-9b45-b04ac6d1bbe4)
+
+
+
+```javaScript
+(null).toString()                  // "null"
+undefined.toString()               // "undefined"
+true.toString()                    // "true"
+false.toString()                   // "false"
+3.14159.toString()                 // "3.14159"
+(0).toString()                     // "0"
+(-0).toString()                    // "0"
+
+([]).toString()                    // ""
+[1, 2, 3].toString()               // "1,2,3"
+[null, undefined].toString()       // ","
+[[[], [], []], []].toString()      // ",,,"
+([,,,,]).toString()                // ",,,"
+
+{}      "[object Object]"
+{a:2}   "[object Object]"
+```
+
+
+
+
+
+
+
 
 
 
