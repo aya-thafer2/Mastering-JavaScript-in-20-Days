@@ -27,8 +27,7 @@ let x = "2";
 * TypeScript, Flow, etc.
 
 
-#### 💡 **Note**: 
-Everything inside JS is ***NOT*** an object >>> Everything ***can behave as*** an object.
+📌 Everything inside JS is ***NOT*** an object >>> Everything ***can behave as*** an object.
 
 
 ### Primitive Types:
