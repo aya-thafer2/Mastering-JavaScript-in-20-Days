@@ -236,8 +236,17 @@ aka: ***type conversion***.
 ![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/946068e6-18aa-4f08-8748-fe602ca6d86d)
 
 
-## #Boxing
+### Boxing
 ![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/ab07c0e4-3d44-4abb-8bc0-07f631f67c2b)
+
+### Conversion Corner Cases
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/499ad77e-d128-4015-a797-99bea1c67e74)
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/bef92dac-d976-4eff-99ce-b9f0babbe701)
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/65aa3b55-1ad4-4855-912c-ede7167623dc)
+
+
+
+
 
 
 
