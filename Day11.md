@@ -180,32 +180,15 @@ aka: ***type conversion***.
 
 ### Abstract Operations: **ToPrimitive**
 
-#### `.toString ()`
+#### `.toString()`
 
 ![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/57e87169-02a3-48b0-9b45-b04ac6d1bbe4)
 
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/663936e1-7e03-4124-9395-921a4d8722d0)
 
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/53da359e-cff4-41fa-9f11-8b53224fd7c6)
 
-```javaScript
-(null).toString()                  // "null"
-undefined.toString()               // "undefined"
-true.toString()                    // "true"
-false.toString()                   // "false"
-3.14159.toString()                 // "3.14159"
-(0).toString()                     // "0"
-(-0).toString()                    // "0"
-
-([]).toString()                    // ""
-[1, 2, 3].toString()               // "1,2,3"
-[null, undefined].toString()       // ","
-[[[], [], []], []].toString()      // ",,,"
-([,,,,]).toString()                // ",,,"
-
-{}      "[object Object]"
-{a:2}   "[object Object]"
-```
-
-
+###  ToNumber: `Number(x)` 
 
 
 
