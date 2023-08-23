@@ -180,7 +180,7 @@ aka: ***type conversion***.
 
 ### Abstract Operations: **ToPrimitive**
 
-#### `.toString()`
+#### ToString: `.toString()`
 
 ![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/57e87169-02a3-48b0-9b45-b04ac6d1bbe4)
 
@@ -214,6 +214,19 @@ aka: ***type conversion***.
 ### ToBoolean
 
 ![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/d91624d4-ad76-4fba-9230-513687929eab)
+
+### Cases of coercion: 
+
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/17213722-24fd-4933-add1-e454dd3e4765)
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/c0fb2a56-7464-4785-bdb7-ca2e9c5fd611)
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/196a9e16-08f6-4a46-a897-da9c078f4597)
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/52d93af2-9c23-48ce-ae2b-3f3d071f40f3)
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/93fbb8c2-482f-40ad-87d3-43727e566845)
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/10595f00-3e95-471d-b102-a5df42b85d5a)
+
+
+
+
 
 
 
