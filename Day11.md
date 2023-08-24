@@ -280,7 +280,15 @@ const checkNaN = (value) => {
  **My Solution:**
 
 ```javascript
-
+function convertStringToNumber(input) {
+  if(typeof(input)!=='string'){
+      return {
+          value : input,
+          type : typeof(input)
+      };
+  }
+  else return +input;
+}
 ```
 -------------------------------------------------------------------
 
