@@ -308,7 +308,9 @@ function isEmptyValue(value) {
  **My Solution:**
 
 ```javascript
-
+function isEmptyValue(value) {
+  return value === undefined || value === null || value === '';
+}
 ```
 
 -------------------------------------------------------------------
