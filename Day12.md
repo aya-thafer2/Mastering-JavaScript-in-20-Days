@@ -376,11 +376,6 @@ const convertToObj = (array) => {
 
 ```
 
- **My Solution:**
-
-```javascript
-
-```
 -------------------------------------------------------------------
 
 ### QUESTION #2:
