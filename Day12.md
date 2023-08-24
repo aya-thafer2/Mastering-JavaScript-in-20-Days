@@ -109,12 +109,16 @@ console.log(hoursAttended("6.1","10.1") === false);
 ## Equality  == vs. ===
 
 This is ***NOT*** true ❌:
-`==` checks value (loose)
-`===` checks value and type (strict)
+
+`==` checks value (loose).
+
+`===` checks value and type (strict).
 
 This is ***True*** ✅:
-`==` allows coercion (when types are different)
-`===` disallows coercion (when types are the same)
+
+`==` allows coercion (when types are different).
+
+`===` disallows coercion (when types are the same).
 ![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/3317abc5-aad5-4992-bc4b-8a76e7e3fc67)
 
 
