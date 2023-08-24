@@ -513,9 +513,9 @@ D) `[ 36, 100, 45 ]` | `[ 1, 2, 3 ]` | `[ 1, 2, 3 ]`
  **My Solution:**
 
 
-**The correct choice is:**
+The correct choice is:
 
-C) [ 36, 100, 45 ] | [ 1, 2, 3 ] | [ 1, 100, 45 ]
+**C) [ 36, 100, 45 ] | [ 1, 2, 3 ] | [ 1, 100, 45 ]**
 
 1. At the beginning of the testScope3 function, var a = 36;, let b = 100;, and const c = 45; declare and initialize three variables: a with var, b with let, and c with const. These variables are function-scoped and are accessible within the entire function.
 
