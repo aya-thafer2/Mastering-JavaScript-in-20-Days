@@ -333,7 +333,13 @@ function compareObjects(input1, input2) {
  **My Solution:**
 
 ```javascript
+function compareObjects(input1, input2) {
+  if (typeof(input1) !== 'object' || typeof(input2) !== 'object') {
+    return [input1, input2];
+  }
 
+  return Object.is(input1, input2);
+}
 ```
 
 -------------------------------------------------------------------
