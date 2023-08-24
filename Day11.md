@@ -288,7 +288,9 @@ const checkNaN = (value) => {
  **My Solution:**
 
 ```javascript
-
+const checkNaN = (value) => {
+  return Number.isNaN(value);
+}
 ```
 -------------------------------------------------------------------
 
