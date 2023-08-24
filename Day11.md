@@ -367,7 +367,19 @@ const complexCoercion = (input) => {
  **My Solution:**
 
 ```javascript
-
+const complexCoercion = (input) => {
+  if(typeof(input)!=='object'){
+      if(typeof(input)=='number'){
+        return Boolean(String(input));
+      } 
+      else if(typeof(input)=='string'){
+          return Boolean(input);
+      }
+      else if(input === null || input === undefined){
+          return false;
+      }
+  }else return input;
+}
 ```
 
 
