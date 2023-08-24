@@ -318,6 +318,20 @@ function setsMatch(arr1,arr2) {
 
 ### TypeScript & Flow: Pros and Cons
 
+📌 **Pros:**
+
+* They make types more obvious in code.
+* Familiarity: they look like other language's type systems.
+* Extremely popular these days.
+* They're very sophisticated and good at what they do.
+
+📌 **Cons:**
+
+* They use "non-JS-standard" syntax (or code comments).
+* They require* a build process, which raises the barrier to entry.
+* Their sophistication can be intimidating to those without prior formal types experience.
+* They focus more on "static types" (variables, parameters, returns, properties, etc) than value types.
+* The only way to have confidence over the runtime behavior is to limit/eliminate dynamic typing.
 
 
 
