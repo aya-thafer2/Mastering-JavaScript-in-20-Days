@@ -182,8 +182,12 @@ If I had a triple equals and they were different types, it's always gonna fail. 
 
 #### 💡 **NOTE**: 
 ***Summary:*** 
+
 making types known and obvious leads to better code. 
-If types are known, `==` is best. >>> Otherwise, fall back to `===`.
+
+If types are known, `==` is best.
+
+Otherwise, fall back to `===`.
 
 
 
