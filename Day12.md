@@ -134,3 +134,6 @@ For the most part, you have the option of treating null and undefined as indisti
 
 
 
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/eeebbc8f-0130-4906-8997-4c5519c43beb)
+
+
