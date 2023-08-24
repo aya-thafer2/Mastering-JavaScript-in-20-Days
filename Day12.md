@@ -119,6 +119,7 @@ This is ***True*** ✅:
 `==` allows coercion (when types are different).
 
 `===` disallows coercion (when types are the same).
+
 ![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/3317abc5-aad5-4992-bc4b-8a76e7e3fc67)
 
 
@@ -132,6 +133,9 @@ For the most part, you have the option of treating null and undefined as indisti
 
 ![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/faed8168-fe0a-4230-8af6-e048f1bcbb49)
 
+
+### Double Equals Algorithm
+If I had a triple equals and they were different types, it's always gonna fail. So I'm gonna have to make numbers. But if I know there can only be number or string, especially if one of them is definitely a number, then an exactly the same way as I allow this with the last things sign, several sides ago, why not also allow with the double equals, why not say that this code online for is more noisy unnecessarily so and the abstraction of the double equals it's helpful here.
 
 
 ![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/eeebbc8f-0130-4906-8997-4c5519c43beb)
