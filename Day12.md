@@ -155,7 +155,9 @@ If I had a triple equals and they were different types, it's always gonna fail. 
 ![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/9be32b47-5a98-443e-bd99-5f88a42a6223)
 
 
+### Corner Cases: Summary
 
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/133c74fe-8527-4722-93c7-298abe0b8f4f)
 
 
 
