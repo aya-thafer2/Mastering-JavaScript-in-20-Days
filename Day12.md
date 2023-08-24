@@ -172,6 +172,12 @@ If I had a triple equals and they were different types, it's always gonna fail. 
 
 💡 ***Summary***: whether the types match or not, `==` is the more sensible choice.
 
+📌 If you ***don't know*** the type(s) in a comparison:
+* The uncertainty of not knowing types should be obvious to reader The most obvious signal is `===`.
+* Not knowing the types is equivalent to assuming type conversion Because of corner cases, the only safe choice is `===`.
+
+💡 ***Summary***: if you can't or won't use known and obvious types, `===` is the only reasonable choice.
+
 
 
 
