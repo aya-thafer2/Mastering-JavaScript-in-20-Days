@@ -180,6 +180,10 @@ If I had a triple equals and they were different types, it's always gonna fail. 
 
 💡 ***Summary***: if you can't or won't use known and obvious types, `===` is the only reasonable choice.
 
+#### 💡 **NOTE**: 
+***Summary:*** 
+making types known and obvious leads to better code. 
+If types are known, `==` is best. >>> Otherwise, fall back to `===`.
 
 
 
