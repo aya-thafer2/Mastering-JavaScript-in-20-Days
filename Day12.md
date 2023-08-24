@@ -290,6 +290,38 @@ function setsMatch(arr1,arr2) {
 }
 ```
 
+### TypeScript, Flow, and type-aware linting
+
+📌 **Benefits:**  
+
+1. Catch type-related mistakes
+2. Communicate type intent
+3. Provide IDE feedback
+4. validating operand types to avoid errors
+
+📌 **Caveats:**
+1. Inferencing is best-guess, not a guarantee 
+2. Annotations are optional 
+3. Any part of the application that isn't typed introduces uncertainty
+
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/71b77e4b-6977-4543-847b-36ab4785c572)
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/1c3900ca-ba14-476e-a928-230b0f46c6f7)
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/7c6a1acc-6125-4d9b-bedd-56d1dcc21b7b)
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/a65325ee-e16a-4b98-aa74-7accc3f8f08a)
+
+
+
+### 💡 Summary
+
+ **[TypeScript vs Flow](https://github.com/niieani/typescript-vs-flowtype)** 
+
+
+### TypeScript & Flow: Pros and Cons
+
+
+
+
+
 
 
 
