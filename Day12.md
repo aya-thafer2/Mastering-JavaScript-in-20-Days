@@ -409,7 +409,7 @@ D) `1`, `ReferenceError`
 
 The correct choice is:
 
-C) 1, ReferenceError, ReferenceError.
+**C) 1, ReferenceError, ReferenceError.**
 
 * var has function scope, which means it's accessible throughout the function in which it's defined.
 * let and const have block scope, which means they are only accessible within the block where they are defined.
@@ -456,7 +456,7 @@ D) `1`, `ReferenceError`
 
 The correct choice is:
 
-A) undefined, ReferenceError
+**A) undefined, ReferenceError**
 
 
 1. console.log(a); is executed before the if block. Since var declarations are hoisted to the top of their containing function or global scope, the variable a is declared in the function scope and initialized to undefined at the beginning of the function. Therefore, console.log(a); will print undefined.
@@ -513,7 +513,7 @@ D) `[ 36, 100, 45 ]` | `[ 1, 2, 3 ]` | `[ 1, 2, 3 ]`
  **My Solution:**
 
 
-The correct choice is:
+**The correct choice is:**
 
 C) [ 36, 100, 45 ] | [ 1, 2, 3 ] | [ 1, 100, 45 ]
 
