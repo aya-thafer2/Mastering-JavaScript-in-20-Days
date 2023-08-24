@@ -159,6 +159,20 @@ If I had a triple equals and they were different types, it's always gonna fail. 
 
 ![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/133c74fe-8527-4722-93c7-298abe0b8f4f)
 
+### The case for preferring ==
+
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/9fa053fc-48b1-421c-b922-55a17b412be0)
+
+
+📌  If you ***know*** the type(s) in a comparison:
+* If both **types** are ***the same***, `==` is identical to `===`. Using `===` would be unnecessary, so prefer the shorter `==`.
+* If the **types** are ***different***, using one `===` would be broken. Prefer the more powerful `==` or don't compare at all.
+* If the **types** are ***different***, the equivalent of one `==` would be two (or more!) `===` (ie, "slower"). Prefer the "faster" single `==`.
+* If the **types** are ***different***, two (or more!) `===` comparisons may distract the reader Prefer the cleaner single `==`.
+
+💡 ***Summary***: whether the types match or not, `==` is the more sensible choice.
+
+
 
 
 
