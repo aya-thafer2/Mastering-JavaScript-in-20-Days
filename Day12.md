@@ -407,9 +407,20 @@ D) `1`, `ReferenceError`
 
  **My Solution:**
 
-```javascript
+The correct choice is:
 
-```
+C) 1, ReferenceError, ReferenceError.
+
+* var has function scope, which means it's accessible throughout the function in which it's defined.
+* let and const have block scope, which means they are only accessible within the block where they are defined.
+
+Here's how the code behaves:
+
+1. var a = 1; is declared within the if block, but due to the nature of var being function-scoped, it's accessible throughout the testScope1 function. Therefore, when console.log(a); is executed outside the if block, a still holds the value 1, and it will print 1.
+
+2. let b = 2; is declared within the if block with block scope. This means it's not accessible outside the block in which it's defined. Therefore, when console.log(b); is executed outside the if block, b is out of scope, and a ReferenceError will occur, indicating that b is not defined.
+
+3. const c = 3; is also declared within the if block with block scope. Like let, it's not accessible outside the block in which it's defined. When console.log(c); is executed outside the if block, c is out of scope, and a ReferenceError will occur, indicating that c is not defined.
 -------------------------------------------------------------------
 
 ### QUESTION #3:
@@ -443,9 +454,23 @@ D) `1`, `ReferenceError`
 
  **My Solution:**
 
-```javascript
+The correct choice is:
 
-```
+A) undefined, ReferenceError
+
+
+1. console.log(a); is executed before the if block. Since var declarations are hoisted to the top of their containing function or global scope, the variable a is declared in the function scope and initialized to undefined at the beginning of the function. Therefore, console.log(a); will print undefined.
+
+2. console.log(b); is executed before the if block. However, the variable b is declared with let inside the if block, and its scope is limited to that block. It's not accessible before its declaration, which results in a ReferenceError.
+
+3. console.log(c); is also executed before the if block. Similar to let, the variable c is declared with const inside the if block, and its scope is limited to that block. Like let, it's not accessible before its declaration, resulting in a ReferenceError.
+
+4. Inside the if block, var a = 1; declares a within the block scope. This declaration is hoisted to the top of the function, effectively overriding the previous declaration of a and initializing it with the value 1.
+
+5. Inside the if block, let b = 2; declares b within the block scope. This declaration is not hoisted to the top of the function. Therefore, this b is a different variable from the one used outside the if block.
+
+6. Inside the if block, const c = 3; declares c within the block scope. Like let, this declaration is not hoisted to the top of the function. This c is also a different variable from the one used outside the if block.
+
 -------------------------------------------------------------------
 
 ### QUESTION #4:
@@ -487,9 +512,23 @@ D) `[ 36, 100, 45 ]` | `[ 1, 2, 3 ]` | `[ 1, 2, 3 ]`
 
  **My Solution:**
 
-```javascript
 
-```
+The correct choice is:
+
+C) [ 36, 100, 45 ] | [ 1, 2, 3 ] | [ 1, 100, 45 ]
+
+1. At the beginning of the testScope3 function, var a = 36;, let b = 100;, and const c = 45; declare and initialize three variables: a with var, b with let, and c with const. These variables are function-scoped and are accessible within the entire function.
+
+2. The first console.log([a, b, c]); logs the values of the initial declarations, which are [36, 100, 45].
+
+3. Inside the if block:
+
+    * var a = 1; reassigns the value of a to 1. This affects the previously declared a in the outer scope.
+    * let b = 2; declares a new variable b with block scope. This does not affect the b declared in the outer scope.
+    * const c = 3; declares a new variable c with block scope. This does not affect the c declared in the outer scope.
+    * The second console.log([a, b, c]); logs the values within the if block, which are [1, 2, 3].
+  
+4. After the if block, the final console.log([a, b, c]); logs the values of the variables in the outer scope, where a has been reassigned to 1 within the if block, b is still 100, and c is still 45.
 
 
 
