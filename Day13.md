@@ -6,15 +6,6 @@
 📌 **Scope**: where to look for things.
 
 
-* Nested Scope.
-
-* Hoisting.
-
-* Closure.
-  
-* Modules.
-
-
 📌 JavaScript organizes scopes with functions and blocks.
 
 ### Compilation & Scope
