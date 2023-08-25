@@ -66,8 +66,9 @@ So if you try to assign to a variable that's never been formally declared. Once 
 💡 ***Summary***: **Undeclared** *doesn't exist*, **Undefined** definitely does *exist*, but *doesn't have a value*.
 
 
+### Lexical Scope Elevator
 
-
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/9c3ed351-b6be-4588-a956-03699edef1c0)
 
 
 
