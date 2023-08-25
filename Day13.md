@@ -25,6 +25,10 @@ We're going to pretend as if a conversation is happening in this processing of t
 > * Having two varibles with same name in different scopes called ***shadowing***.
 > * All of the scopes that we're dealing with, all of the lexical scopes and identifiers, that's all determined at compile time. It's not determined at run time. It is ***used*** at ***run time***, but it is ***determined*** at ***compile time***.
 
+### **Before executing the code :**
+
+1. Scope maneger detrmine the scope.
+2. Then bring data or store it in the variable.
 
 ### Execute the code
 
