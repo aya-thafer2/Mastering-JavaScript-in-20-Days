@@ -36,4 +36,22 @@ We're going to pretend as if a conversation is happening in this processing of t
 
 
 
+###  Auto Global: 
+
+📌 If I try to use varible in cuurent scope without declaring it, it will be delared in the globale scope.
+
+So if you try to assign to a variable that's never been formally declared. Once you arrive at the global scope, if you say hey, global scope, I'm looking for this marble called topic, ever heard of it? And the global scope instead of saying nope, sorry error, the global scope's gonna say I just created one for you.
+
+
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/72ba93a4-7e54-4a6f-bfa4-568760672715)
+
+
+
+
+
+
+
+
+
+
 
