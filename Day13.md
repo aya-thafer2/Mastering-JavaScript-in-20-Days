@@ -6,7 +6,7 @@
 📌 **Scope**: where to look for things.
 
 
-📌 JavaScript organizes scopes with functions and blocks.
+📌 JavaScript organizes scopes with ***functions*** and ***blocks***.
 
 ### Compilation & Scope
 
