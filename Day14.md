@@ -22,6 +22,30 @@ lex → the first stage of parsing.
 ![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/17982f57-73ac-46e1-b47a-1cd63d59c0ab)
 
 
+```javaScript
+const n = "Aya"
+
+function f(){
+    console.log(n);
+}
+
+function ff(){
+    const n = " Hello";
+    f();
+}
+
+ff();
+// Aya => lexical
+// Hello => dynamic
+```
+
+
+## Function Scoping 
+
+> ### 📌 Principle of privilege:
+> You  should default to keep everything private and only exposing the minimal necessary.
+
+
 
 
 
