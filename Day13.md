@@ -96,6 +96,7 @@ So if you try to assign to a variable that's never been formally declared. Once 
 2. More debuggable stack traces.
 3. More self-documenting code.
 
+### Arrow Functions
 
 
 
