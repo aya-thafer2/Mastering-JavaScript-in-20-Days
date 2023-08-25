@@ -102,6 +102,7 @@ So if you try to assign to a variable that's never been formally declared. Once 
 ![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/6059a5e9-077e-4841-8905-8393c7ff420c)
 
 
+#### 💡 **NOTE**: 
 
 💡 ***Summary***: (Named) Function Declaration > Named Function Expression > Anonymous Function Expression.
 
