@@ -54,8 +54,7 @@ So if you try to assign to a variable that's never been formally declared. Once 
 
 ### Nested Scope:
 
-![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/3b0d46a9-dc3e-422f-bf4f-82d4da5feaa0)
-
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/16a397cb-0a75-4383-9d88-33db69e8b7ef)
 
 
 
