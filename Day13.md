@@ -73,6 +73,16 @@ So if you try to assign to a variable that's never been formally declared. Once 
 
 ## Scope & Function Expressions 
 
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/c861dc77-7b6f-4bd9-9ae0-dcea5db29c8c)
+
+
+#### Named Function Expressions:
+
+
+
+
+
+
 
 
 
