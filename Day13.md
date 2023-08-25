@@ -58,6 +58,19 @@ So if you try to assign to a variable that's never been formally declared. Once 
 
 
 
+### Undefined vs. Undeclared
+
+* ***Undefined:*** means a ***variable exists*** but at the moment ***it has no value***.It may have never had a value or it might have used to have a value and it doesn't anymore but there is no other value in the vacuum of space it is undefined.
+* ***Undeclared:*** undeclared is actually ***never formally declared*** in any scope that we have accessed to.
+
+
+
+
+
+
+
+
+
 
 
 
