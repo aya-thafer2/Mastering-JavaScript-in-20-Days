@@ -90,7 +90,11 @@ So if you try to assign to a variable that's never been formally declared. Once 
 * ***Anonymous Function Expression***: On line one, we see a function expression, but we see no name. So that's called an anonymous function expression.
 * ***Named Function Expression***: whereas the one on line five is a named function expression. 
 
+### Benefits of using Named Function Expressions:
 
+1. Reliable function self-reference (recursion, etc.).
+2. More debuggable stack traces.
+3. More self-documenting code.
 
 
 
