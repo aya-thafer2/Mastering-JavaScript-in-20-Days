@@ -46,6 +46,11 @@ So if you try to assign to a variable that's never been formally declared. Once 
 ![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/72ba93a4-7e54-4a6f-bfa4-568760672715)
 
 
+### Strict Mode:
+
+📌 This will prevent Auto Global.
+
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/abbeddea-c737-4b76-85f2-97fcb17de535)
 
 
 
