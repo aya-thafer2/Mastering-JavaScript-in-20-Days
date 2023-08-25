@@ -50,6 +50,7 @@ In this challenge, you will enhance your JavaScript skills and knowledge. Each d
 -  [**Day 11**](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/blob/main/Day11.md)
 -  [**Day 12**](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/blob/main/Day12.md)
 -  [**Day 13**](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/blob/main/Day13.md)
+-  [**Day 14**](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/blob/main/Day14.md)
 
 
 
