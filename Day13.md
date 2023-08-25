@@ -80,15 +80,15 @@ So if you try to assign to a variable that's never been formally declared. Once 
 
 ![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/75152a16-d63e-4624-a491-6146453c905d)
 
-#### function expression vs. function declaration
+📌 #### function expression vs. function declaration
 
-**function declaration**: if the word function is literally the first thing in the statement.
-**function expression**: if there's a variable or an operator or parentheses or anything, then it's not a declaration, it is An expression.Line one, I'm declaring a function expression.
+* **function declaration**: if the word function is literally the first thing in the statement.
+* **function expression**: if there's a variable or an operator or parentheses or anything, then it's not a declaration, it is An expression.Line one, I'm declaring a function expression.
 
- #### anonymous function expression vs. named function expression
+📌  #### anonymous function expression vs. named function expression
  
-**anonymous function expression**: On line one, we see a function expression, but we see no name. So that's called an anonymous function expression.
-**named function expression**: whereas the one on line five is a named function expression. 
+* **anonymous function expression**: On line one, we see a function expression, but we see no name. So that's called an anonymous function expression.
+* **named function expression**: whereas the one on line five is a named function expression. 
 
 
 
