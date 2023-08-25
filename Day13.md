@@ -416,9 +416,8 @@ outer1(); // Output: 10
 
 **My Solution:**
 
-```javascript
- 
-```
+The output is 10. The reason is that the function inner1 is defined within the scope of the outer1 function. Since inner1 is a closure, it retains access to the variables in its surrounding scope, even after outer1 has finished executing. When inner1() is called, it logs the value of x, which is 10, because it has access to the x variable in its lexical scope.
+
 
 -------------------------------------------------------------------
 
@@ -443,12 +442,7 @@ outer2(); // Output: 20
 
 **My Solution:**
 
-```javascript
- 
-```
-
-
-
+The reason is that the inner2 function creates its own local variable x with a value of 20 within its scope using var x = 20. This local variable x is separate from the x variable defined in the outer scope of outer2(). When inner2() is called, it logs the value of its own local x, which is 20. This demonstrates the concept of variable shadowing, where a local variable with the same name as an outer variable effectively hides the outer variable within the inner scope.
 
 
 
