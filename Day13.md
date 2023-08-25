@@ -98,6 +98,20 @@ So if you try to assign to a variable that's never been formally declared. Once 
 
 ### Arrow Functions
 
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/0e42d266-8f3e-47c7-a45d-1a34a07bff1c)
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/6059a5e9-077e-4841-8905-8393c7ff420c)
+
+
+
+💡 ***Summary***: (Named) Function Declaration > Named Function Expression > Anonymous Function Expression.
+
+
+
+
+
+
+
+
 
 
 
