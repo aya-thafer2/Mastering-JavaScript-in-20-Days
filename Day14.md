@@ -61,6 +61,7 @@ f()
 })()
 ```
 ![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/7b653f0f-5949-4669-a4c6-a1cc49f291eb)
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/179bf94c-b4d3-4651-8650-2423f73a9445)
 
 
 
