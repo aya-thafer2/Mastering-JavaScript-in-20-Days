@@ -280,6 +280,7 @@ for (let i = 0; i < 5; i++) {
 console.log("Current array is: ", array);
 ```
 By declaring the array variable outside of the loop, you ensure that all values of i are pushed into the same array.
+
 -------------------------------------------------------------------
 
 ### QUESTION #3
