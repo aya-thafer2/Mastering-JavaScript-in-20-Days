@@ -268,9 +268,18 @@ Provide a solution to fix it.
 
 **My Solution:**
 
+In the current code, you are creating a new array array in each iteration of the loop, pushing the current value of i into it, and then logging the array. This results in separate arrays for each iteration, each containing only one element. To achieve the desired output of having all elements in a single array, you need to declare the array variable outside of the loop scope. Here's how you can fix the code:
+
 ```javascript
- 
+ let array = [];
+
+for (let i = 0; i < 5; i++) {
+    array.push(i);
+}
+
+console.log("Current array is: ", array);
 ```
+By declaring the array variable outside of the loop, you ensure that all values of i are pushed into the same array.
 -------------------------------------------------------------------
 
 ### QUESTION #3
@@ -306,11 +315,23 @@ Provide a solution to fix it.
 
 **My Solution:**
 
+The arrow function inside the loop captures the variable i by reference, not by value. When the functions stored in the functions array are executed, they all reference the final value of i after the loop has completed, which is 5.
+
+To fix this, you can use the let keyword to declare i inside the loop. This creates a new block-scoped variable i for each iteration of the loop, ensuring that each function captures the correct value of i. Here's how you can fix the code:
+
 ```javascript
- 
+ let functions = [];
+
+for (let i = 0; i < 5; i++) {
+  functions.push(() => {
+    console.log("Current value of i is:", i);
+  });
+}
+
+functions.forEach((func) => func());
 ```
 
-
+With this change, each function inside the functions array will capture its own block-scoped value of i.
 
 
 
