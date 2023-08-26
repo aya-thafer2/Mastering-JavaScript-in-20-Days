@@ -46,6 +46,22 @@ ff();
 > You  should default to keep everything private and only exposing the minimal necessary.
 
 
+### IIFE (Immediately Invoked Function Expression)
+
+```javaScript
+function f (){
+    console.log("hello")
+}
+f()
+
+// we can do
+// also it may do not have name
+(function  ff (){    // not a functon declertion
+    console.log("hello")
+})()
+```
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/7b653f0f-5949-4669-a4c6-a1cc49f291eb)
+
 
 
 
