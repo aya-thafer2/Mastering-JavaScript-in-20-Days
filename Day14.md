@@ -83,7 +83,7 @@ f()
 ![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/8bec16ca-6f70-4d53-8f4a-4396ecc1d124)
 
 ### let & hoisting 
-Wa can’t say that let dosn’t have hoisting, insted it’s kind of uninitioalized state
+We can’t say that let doesn't have hoisting, instead it’s kind of uninitialized state.
 
 ![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/d8da258d-811a-429d-9139-532db3791625)
 
