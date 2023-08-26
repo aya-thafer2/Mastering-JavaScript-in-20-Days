@@ -42,7 +42,7 @@ ff();
 
 ## Function Scoping 
 
-> ### 📌 Principle of privilege:
+> ### 📌 Principle of least privilege / Principle of least exposure:
 > You  should default to keep everything private and only exposing the minimal necessary.
 
 
