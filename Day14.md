@@ -224,9 +224,22 @@ fix it.
 
 **My Solution:**
 
+The setTimeout function runs asynchronously, and by the time the callback function inside setTimeout is executed, the loop has already completed, and the value of i has become 5. This is why you're seeing "value of [i] is: 5" five times.
+
+To achieve the desired output, you can use an Immediately Invoked Function Expression (IIFE) to capture the current value of i for each iteration of the loop. Here's how you can fix the code:
+
 ```javascript
- 
+ for (var i = 0; i < 5; i++) {
+    (function(index) {
+        setTimeout(function() {
+            console.log("value of [i] is: ", index);
+        }, 100);
+    })(i);
+}
 ```
+
+In this fixed code, the IIFE creates a new scope for each iteration of the loop, capturing the current value of i and passing it as the index parameter. This ensures that the correct value of i is used in each iteration of the setTimeout callback. 
+
 -------------------------------------------------------------------
 
 ### QUESTION #2
