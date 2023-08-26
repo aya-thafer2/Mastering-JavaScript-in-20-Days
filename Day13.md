@@ -308,7 +308,6 @@ remindUnpaid(currentEnrollment);
 
 # GSG Challenges🔥:
 
-# Learning sprint (1), week (3), day (3) delieverables
 
 ### QUESTION #1
 
