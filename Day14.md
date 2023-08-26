@@ -78,7 +78,9 @@ f()
 - Function declarations are also hoisted, allowing them to be called before they are defined.
 - Hoisting does not apply to function expressions, arrow functions, or variables declared with `let` or `const`.
 
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/8b2960e4-2cb3-4031-9bfb-de7ca668394b)
 
+![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/8bec16ca-6f70-4d53-8f4a-4396ecc1d124)
 
 
 
