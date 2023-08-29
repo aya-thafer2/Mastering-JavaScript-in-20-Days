@@ -7,7 +7,7 @@
 
 The idea that a compiler is figuring out all the scopes ahead of time befor being executed. 
 
-lex → the first stage of parsing.
+
 
 
 ### lexical scope VS. dynamic scope 
