@@ -7,15 +7,26 @@
 
 📌 *Whenever there's a divergence between what your brain thinks is happening, and what the computer does, that's where bugs enter the code.*
 
-```javaScript
-let x = 2;
-++x;  // 3
-// this means 
-x = x +1;
+```javascript
+var x="5"
+x=x+1		//The output: “51” it converts it to a string
 
-let x = "2";
-++x; // should be 21
-//But it's 3 because JS is written like this
+//While
+
+var y="5";
+++y;     //5
+y;	//6
+//The output: 6   it converts it to a number
+```
+```javascript
+var x=5
+x++;       5
+x;	6
+
+//While
+var x=5
+++x;	6
+x;	6
 ```
 
 ## **Types**
