@@ -20,22 +20,6 @@ The idea that a compiler is figuring out all the scopes ahead of time befor bein
 ![image](https://github.com/aya-thafer2/Mastering-JavaScript-in-20-Days/assets/121509832/17982f57-73ac-46e1-b47a-1cd63d59c0ab)
 
 
-```javaScript
-const n = "Aya"
-
-function f(){
-    console.log(n);
-}
-
-function ff(){
-    const n = " Hello";
-    f();
-}
-
-ff();
-// Aya => lexical
-// Hello => dynamic
-```
 
 
 ### Function Scoping 
