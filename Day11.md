@@ -93,7 +93,7 @@ x;	6
 ### NaN & isNaN:  
 📌 NaN is Special Value and it is the only value that is ***not equal*** to itself.
 
-📌 *Type of Nan*: NaN type is number (***invalid number***), becuase it cmoes from numeric operations
+📌 *Type of Nan*: NaN type is number (***invalid number***).
 
 
 ### is Nan method:
